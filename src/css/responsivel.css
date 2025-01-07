@@ -1,0 +1,47 @@
+@media (max-width: 576px) {
+    
+    .principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .aba-a, .aba-c{
+        width: 301px;
+        height: 710px;
+        justify-content: flex-start;
+    }
+
+    .aba-b{
+        width: 301px;
+        height: 250px;
+    }
+    .titulo-principal{
+        display: none;
+    }
+
+    .tipoAreas{
+        margin-bottom: 150px ;
+    }
+
+    .aba-item{
+       
+        width: 301px;
+        flex-wrap: wrap;
+    }
+
+    #descricao{
+        border: solid 2px blue;
+        width: 290px;
+      
+    }
+    .titulo-principal1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo-principal1 img, .titulo-secundario{
+        display: none;
+    }
+}
+

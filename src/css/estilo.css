@@ -1,0 +1,230 @@
+/* *{
+    border: solid red 1px;
+} */
+
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+}
+h1{
+    margin-top: 10px;
+    font-size: 4.9em;
+    color: yellow;
+    text-shadow: 0 0 0.2em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0)    
+}
+.titulo-principal{
+    text-align: center;
+    height: 170px;
+}
+.sub-titulo{
+    margin: 0;
+    color: rgb(255, 0, 0);
+    text-shadow: none ;
+    font-size: 4.2em;
+    margin-bottom: 10px;
+    text-shadow: 0 0 0.2em rgb(238, 235, 235), 0 0 0.2em rgb(252, 252, 252)
+}
+
+.titulo-a{
+    margin-top: 35px;
+}
+.titulo-b{
+    margin-top: 90px;
+}
+.aba-descricao{
+    height: 250px;
+    margin-top: 40PX;
+    
+}
+h2{
+    font-size: 2.5em;  
+}
+.principal{
+    margin:0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aba-item{   /*-------- ABA DE CADA AREA-----*/
+    width: 450px;
+    display: flex; 
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.item{
+
+    text-align: center;
+    width: 85px;
+    height: 63px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0 black;
+    font-size: 1.1em;
+    padding: 7px 5px;
+    border:solid black 1px;
+    margin: 5px; 
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.fontBold{
+    font-weight: bold;
+    background-color: black;
+}
+
+
+.cod-intern{
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgb(4, 0, 56);
+    font-weight: 700;
+    font-size: 1.2em;
+    
+}
+.v220{
+    color: red;
+    font-weight: 900;
+}
+
+
+.item:hover{
+    background-color: yellow;
+    box-shadow: 0px 0px 10px 5px yellow;
+    color: black;
+    font-size: 1.2em;
+}
+
+
+.abas ul{    
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+
+.aba-a, .aba-c,.aba-b{
+    width: 391px;
+    height: 580px;
+}
+
+
+
+.tipoAreas{
+    height: 180px;
+}
+
+.fluidos{
+    width: 90px;
+    height: 68px;
+    font-size: 1.2em;
+}
+
+/*-------------------------------------------------------------------------------------------CORES-----*/
+
+.linhab{
+    font-weight: 700;
+    background: rgb(223, 131, 251);
+}
+.gas{
+    font-weight: bold;
+    background-color: aquamarine;
+
+}
+.motor{
+    color: #ffffff;
+    background-color: rgb(29, 28, 28);
+}
+.comercial{
+    font-weight: bold;
+    background-color: #567882;
+}
+.suportes{
+    font-weight: bold;
+    background-color:  #60a991;
+}
+.lata{
+    font-weight: bold;
+    background-color:  #60a991;
+}
+
+/*----------------------------------------------------------------------------------CORES BOTIJAS-----*/
+
+.botijas-tipo{
+    display: flex;
+  }
+  
+  .gasr410{
+      background-color: rgb(245, 61, 162);
+  }
+  
+  .gasr404{
+      background-color: orangered;
+  }
+  .gasr22{    
+      background-color: rgb(7, 247, 7);
+  }
+  .gasr134{
+      background-color: rgb(35, 245, 245);
+
+  }
+
+/*-----------------------------------------------------------------------------------aba-descricoes----*/
+.promocao{
+    color: red;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.titulo-principal1{
+ display: none;
+}
+
+
+/*----------------------------------------------------------------------------------------RESPOSTAS----*/
+.desc-item{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-promocao{
+    margin: 35px 0 0 0;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 41, 123);
+    text-shadow: 0 0 0.2em rgb(118, 189, 255), 0 0 0.2em rgb(0, 0, 0)
+    
+}
+.data-final{
+    text-align: center; 
+
+}
+.dtcor{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+
+
+#descricao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    min-height: 100px;
+    margin: auto;   
+    background-color: #ffffff;
+    font-size: 16px;
+    border-Radius: 10px;
+    border: "solid black 2px";
+    font-Weight: 700;
+    padding: 15px 0px;
+    box-shadow: 0px 0px 10px 5px rgb(0, 0, 0);
+  
+}
