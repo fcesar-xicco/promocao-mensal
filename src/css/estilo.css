@@ -56,11 +56,11 @@ h2{
 .item{
 
     text-align: center;
-    width: 85px;
-    height: 63px;
+    width: 95px;
+    height: 65px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px 0 black;
-    font-size: 1.1em;
+    font-size: 1.2em;
     padding: 7px 5px;
     border:solid black 1px;
     margin: 5px; 
@@ -108,7 +108,7 @@ h2{
 
 
 .aba-a, .aba-c,.aba-b{
-    width: 391px;
+    width: 415px;
     height: 580px;
 }
 
@@ -194,9 +194,10 @@ h2{
     align-items: center;
 }
 .titulo-promocao{
-    margin: 35px 0 0 0;
+    margin: 0px 0 0 0;
     text-align: center;
     font-size: 35px;
+    font-weight: bold;
     color: rgb(0, 41, 123);
     text-shadow: 0 0 0.2em rgb(118, 189, 255), 0 0 0.2em rgb(0, 0, 0)
     

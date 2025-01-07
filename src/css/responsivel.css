@@ -6,13 +6,13 @@
         justify-content: flex-start;
     }
     .aba-a, .aba-c{
-        width: 301px;
+        width: 321px;
         height: 710px;
         justify-content: flex-start;
     }
 
     .aba-b{
-        width: 301px;
+        width: 321px;
         height: 250px;
     }
     .titulo-principal{
@@ -24,8 +24,7 @@
     }
 
     .aba-item{
-       
-        width: 301px;
+        width: 321px;
         flex-wrap: wrap;
     }
 
