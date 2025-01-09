@@ -220,7 +220,7 @@ h2{
 }
 
 #descontocompressor{
-    margin:50px 0px;
+    margin:25px 0px;
     width: 320px;
     text-align: left;
     background-color: #2ab0e9;
@@ -236,7 +236,10 @@ h2{
    font-size: 20px;
    border-radius: 5PX;
 }
-
+.titulodesconto{
+    margin-bottom: 10px;
+    text-align: center;
+}
 
 #descricao{
     display: flex;
@@ -245,7 +248,7 @@ h2{
     width: 320px;
     min-height: 100px;
     margin: auto;
-    margin-top: 180PX;   
+    margin-top: 160PX;   
     background-color: #ffffff;
     font-size: 16px;
     border-Radius: 10px;
