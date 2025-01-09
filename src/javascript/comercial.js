@@ -6,10 +6,10 @@ let produtosComercial = [
     {nome:'Suporte barril 7-12 450MM ',tipo: "Suporte",vista:25.90, prazo:29.90, extra1:24.90 ,extra2:28.90, indice:1 },//1  12211
     {nome:'Suporte Split 18-24 500MM ',tipo: "Suporte",vista:33.90, prazo:36.90, extra1:32.90 ,extra2:35.90, indice:2 },//2  7288
     {nome:'Suporte Split 30-36 600MM ',tipo: "Suporte",vista:54.90, prazo:57.90, extra1:51.90 ,extra2:53.90, indice:3 },//3
-    {nome:'Micro motor Elgin 1/40 110/220V ',tipo: "Comercial",vista:57.90 , prazo:65.00, indice:4},//3  6153
-    {nome:'Micro motor Elgin 1/25 110/220V ',tipo: "Comercial",vista:69.90 , prazo:76.00, indice:5},//4  2418
+    {nome:'Micro motor Elgin 1/40 110/220V ',tipo: "Comercial",vista:54.90 , prazo:59.90, indice:4},//3  6153
+    {nome:'Micro motor Elgin 1/25 110/220V ',tipo: "Comercial",vista:63.90 , prazo:69.90, indice:5},//4  2418
     {nome:'Controlador FULL GAUGE MT512E ',tipo: "Comercial",vista:135.00 , prazo:142.90, indice:6},//0  3966
-    {nome:'Controlador FULL GAUGE TC900E ',tipo: "Comercial",vista:179.00 , prazo:163.90, indice:7},//0  4874
+    {nome:'Controlador FULL GAUGE TC900E ',tipo: "Comercial",vista:179.00 , prazo:189.90, indice:7},//0  4874
     {nome:'Bico macarico portatil suryha ',tipo: "Comercial",vista:179.00 , prazo:189.00, indice:8},//2  1428
     {nome:'Gas Macarico Lata Map ZAK 400g ',tipo: "Comercial",vista:25.00 , prazo:28.00, indice:9}//2  1428
     // {nome:'COBRE FLEXIVEL DIVERSAS BITOLAS ',vista:0 , prazo:0 ,kg10:0 , kg20:0},//2

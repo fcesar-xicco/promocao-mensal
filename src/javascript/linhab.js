@@ -13,7 +13,7 @@ let produtosLinhaB = [
 
     // {nome:'Mecanismo EIXO LONGO W11300816 Orig.',vista: 154.90, prazo:167.90, indice:2},//2
     // {nome:'Mecanismo SMART MINI W11299803 Orig.',vista:125.90 , prazo:139.90, indice:3},//3
-    // {nome:'Mecanismo EIXO CURTO W11300675 Orig.',vista: 139.90, prazo:153.00, indice:4},//4
+    // {nome:'Mecanismo EIXO CURTO W11300675 Orig.',vista: 145.00, prazo:169.00, indice:4},//4
     // {nome:'SENSOR TEMP 2,7K W10531315 Orig.',vista:11.90, prazo:13.50, indice:6},//6
     // {nome:'TUBO MONDIAL THORMAC ',vista: 38.90, prazo:39.90, indice:7}//7
 
