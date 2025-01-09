@@ -11,12 +11,34 @@ let datafinal = '31-01'
 let tituloPromocao = 'FRIO TOTAL'
 let abaB = document.querySelector('div.aba-b')
 
+// --------------------------DESCONTOS COMPRESSORES----------------------
 
+let valorConsumidor = document.getElementById('valorconsumidor')
+
+let descontoPrazo = document.getElementById('descontoPrazo')
+let descontoVista = document.getElementById('descontoVista')
+
+valorConsumidor.addEventListener("input",function(valorConsumidor){
+    valores(valorConsumidor)
+    
+
+})
+function valores(valor){
+  let custo = Number(valorConsumidor.value)/2
+  let valorPrazo = custo+((custo/100)*43)
+  let valorVista = custo+((custo/100)*38)
+
+  descontoPrazo.innerHTML = valorPrazo.toFixed(2)
+  descontoVista.innerHTML = valorVista.toFixed(2)
+}
 
 function mostrarDescricao() {
     let abaB = document.querySelector('div.aba-b')
     abaB.style.display = "block"; // Torna a imagem visível
 }
+
+
+
 
 
 /*
