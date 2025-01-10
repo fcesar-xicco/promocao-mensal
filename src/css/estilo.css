@@ -1,6 +1,3 @@
-/* *{
-    border: solid red 1px;
-} */
 
 .titulo{
     text-align: center;
@@ -29,7 +26,7 @@ h1{
 }
 
 .titulo-a{
-    margin-top: 35px;
+    margin-top: 25px;
 }
 .titulo-b{
     margin-top: 90px;
@@ -50,7 +47,7 @@ h2{
 }
 
 .aba-item{   /*-------- ABA DE CADA AREA-----*/
-    width: 450px;
+    width: 370px;
     display: flex; 
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -59,11 +56,10 @@ h2{
 .item{
 
     text-align: center;
-    width: 95px;
-    height: 65px;
+    width: 72px;
+    height: 62px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px 0 black;
-    font-size: 1.2em;
     padding: 7px 5px;
     border:solid black 1px;
     margin: 5px; 
@@ -74,6 +70,19 @@ h2{
     align-items: center;
 
 }
+
+.aba-a, .aba-c,.aba-b{
+    padding:0px 20px;
+    width: 360px;
+    height: 545px;
+}
+
+.tipoAreas{
+    margin-top: 5px;
+    height: 180px;
+}
+
+
 .fontBold{
     font-weight: bold;
     background-color: black;
@@ -100,7 +109,7 @@ h2{
     background-color: yellow;
     box-shadow: 0px 0px 10px 5px yellow;
     color: black;
-    font-size: 1.2em;
+
 }
 
 
@@ -110,46 +119,36 @@ h2{
 }
 
 
-.aba-a, .aba-c,.aba-b{
-    width: 415px;
-    height: 580px;
-}
 
 
-
-.tipoAreas{
-    height: 180px;
-    
-}
-
-.fluidos{
-    width: 90px;
-    height: 68px;
-    font-size: 1.2em;
-}
 
 /*-------------------------------------------------------------------------------------------CORES-----*/
 
 .linhab{
     font-weight: 700;
     background: rgb(223, 131, 251);
+    font-size: 111%;
 }
 .gas{
     font-weight: bold;
     background-color: aquamarine;
+    font-size: 120%;
 
 }
 .motor{
     color: #ffffff;
     background-color: rgb(29, 28, 28);
+    font-size: 112%;
 }
 .comercial{
+    font-size: 112%;
     font-weight: bold;
     background-color: #567882;
 }
 .suportes{
     font-weight: bold;
-    background-color:  #60a991;
+    background-color:  #9ee0ca;
+    font-size: 117%;
 }
 .lata{
     font-weight: bold;
@@ -221,13 +220,13 @@ h2{
 
 #descontocompressor{
     margin:25px 0px;
-    width: 320px;
+    width: 305px;
     text-align: left;
     background-color: #2ab0e9;
     font-size: 15px;
     font-weight: 900;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0px 0px 10px 5px rgb(0, 0, 0);
 }
 
@@ -245,12 +244,12 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 320px;
+    width: 290px;
     min-height: 100px;
     margin: auto;
     margin-top: 160PX;   
     background-color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
     border-Radius: 10px;
     border: "solid black 2px";
     font-Weight: 700;

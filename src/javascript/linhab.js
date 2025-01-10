@@ -9,7 +9,7 @@ let produtosLinhaB = [
     {nome:'Rolamento 6006 2R Orig s/caixa ',vista:10.90, prazo:13.90, indice:3},//6 13278
     {nome:'Agitador 8 Blades W10882241 Orig ',vista: 57.90, prazo:65.00, indice:4},//5 1599
     {nome:'Agitador 8 Blades paralelo.',vista: 27.00, prazo:35.00, indice:5},//5 1599
-    {nome:'Atuador do freio 127v Electroux 64500661.',vista:44.50, prazo:47.50, indice:6},//6
+    {nome:'Atuador do freio 127v Elect. 64500661.',vista:44.50, prazo:47.50, indice:6},//6
 
     // {nome:'Mecanismo EIXO LONGO W11300816 Orig.',vista: 154.90, prazo:167.90, indice:2},//2
     // {nome:'Mecanismo SMART MINI W11299803 Orig.',vista:125.90 , prazo:139.90, indice:3},//3
