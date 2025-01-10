@@ -9,6 +9,7 @@
         width: 321px;
         height: 710px;
         justify-content: flex-start;
+  
     }
 
     .aba-b{
@@ -30,7 +31,8 @@
 
     #descricao{
         border: solid 2px blue;
-        width: 290px;
+        width: 280px;
+        font-size: 14px;
         margin-top: 70PX;   
       
     }
@@ -42,6 +44,20 @@
     }
     .titulo-principal1 img, .titulo-secundario{
         display: none;
+    }
+    .catalagos{
+       
+        margin: auto;
+        width: 240px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .catalagos a {
+        margin: 8px 2px;
+        font-size: 15px;
+        width: 105px;
+        display: flex;
+        justify-content: center;
     }
 }
 
