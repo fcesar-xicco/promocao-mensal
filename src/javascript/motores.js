@@ -28,15 +28,17 @@ produtosCompressores.forEach((comp)=>{
     li.classList.add('item')
     li.classList.add('motor')
     li.setAttribute('value',comp.indice)
-    if(comp.value == 0){
-      li.classList.add('suportes')
+    if(comp.indice == 0 || comp.indice == 1 ){
+      li.classList.add('electrolux')
     }
     if(comp.voltagem ==220){
       li.innerHTML += `<span class="v220">220V</span>`
     }else{
       li.innerHTML += `<span>127V</span>`
     }
+
     
+
     compressores.appendChild(li)
   })
 
@@ -67,10 +69,21 @@ function escolhidoCompressor(mot){
         descricao.style.color = 'black'
         descricao.style.background = 'white'
       }
-        descricao.innerText = `${produtosCompressores[mot.value]['nome']}
+      if(produtosCompressores[mot.value]['voltagem'] == 220){
+        descricao.innerText = `${produtosCompressores[mot.value]['nome']} 220v
         a prazo: ${produtosCompressores[mot.value]['prazo'].toFixed(2)}
         a vista: ${produtosCompressores[mot.value]['vista'].toFixed(2)}
         `
+      }else{
+        descricao.innerText = `${produtosCompressores[mot.value]['nome']} 127v
+        a prazo: ${produtosCompressores[mot.value]['prazo'].toFixed(2)}
+        a vista: ${produtosCompressores[mot.value]['vista'].toFixed(2)}
+        `
+
+
+      }
+
+        
 
         // if(mot.nome == 0 || mot.value == 1 ||mot.value == 4 || mot.value == 5){
 
