@@ -10,14 +10,10 @@ let produtosCompressores = [
     {nome:'Embraco 1/5 R134 EMR70HLR ',voltagem:110, vista:349.90 , prazo:379.90, indice:4  },//4 12549
     {nome:'Embraco 1/5 R134 EMR70HLR ',voltagem:220, vista:349.90 , prazo:379.90, indice:5  },//5 12608
 
-    {nome:'Embraco 1/3 R134 EMR100HLC ',voltagem:127, vista:482.90 , prazo:499.90, indice:6  },//5
-    {nome:'Embraco 1/3 R134 EMR100HLC ',voltagem:220, vista:482.90 , prazo:499.90, indice:7  },//5
-    {nome:'Embraco 1/3+ R134 FFI12HBX ',voltagem:127, vista:589.90 , prazo:619.90, indice:8  },//5
-    {nome:'Embraco 1/3+ R134 FFI12HBX ',voltagem:220, vista:589.90 , prazo:619.90, indice:9  },//5
-    
-
-
-  
+    {nome:'Embraco 1/3 R134 EMR100HLC ',voltagem:127, vista:482.90 , prazo:499.90, indice:6  },//5 12552
+    {nome:'Embraco 1/3 R134 EMR100HLC ',voltagem:220, vista:482.90 , prazo:499.90, indice:7  },//5 12547
+    {nome:'Embraco 1/3+ R134 FFI12HBX ',voltagem:127, vista:589.90 , prazo:619.90, indice:8  },//5 264
+    {nome:'Embraco 1/3+ R134 FFI12HBX ',voltagem:220, vista:589.90 , prazo:619.90, indice:9  },//5 262
     
 ]
 
