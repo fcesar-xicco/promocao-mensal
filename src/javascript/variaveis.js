@@ -7,7 +7,7 @@ let gas = document.querySelectorAll(".gas")
 let comercial = document.querySelectorAll(".comercial")
 let linhaB = document.querySelectorAll(".linhab")
 let descricao = document.querySelector('#descricao')
-let datafinal = '31-01'
+let datafinal = '3 dias!!'
 let tituloPromocao = 'FRIO TOTAL'
 let abaB = document.querySelector('div.aba-b')
 
