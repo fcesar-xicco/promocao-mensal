@@ -3,7 +3,7 @@
 
 let fluidos = [
     {nome:"Botija de gás R134 Uni ",tipo:"R134", vista:980.00, prazo:1070.00, indice:0 }, // 0 13083
-    {nome:"Botija de gás R134 Friven ",tipo:"R134", vista:870.00, prazo:910.00, indice:1}, // 1 1171
+    {nome:"Botija de gás R134 Friven ",tipo:"R134", vista:980.00, prazo:1070.00, indice:1}, // 1 1171
     {nome:"Gás R134 Lata 750g ",tipo:"R134", vista:68.90, prazo:70.90, indice:2}, // 2 6404
 
     {nome:"Botija de gás R22 Eos ",tipo:"R22",vista:915.00, prazo:999.00, indice:3}, //4 1375 
@@ -22,7 +22,7 @@ let fluidos = [
 
 ]
 
-4300
+
 
 
 
