@@ -87,10 +87,12 @@ function escolhidoCompressor(mot){
           descricao.innerText += `1 ano de garantia!!
           `
         }
-        descricao.innerText +=`
-        Promoção Frio Total!!
+        descricao.innerText += `
+        Promoção ${tituloPromocao}!!
         validade até ${datafinal}
-        `
+        ` 
+
+
     })
   
 
