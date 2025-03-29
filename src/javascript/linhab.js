@@ -9,11 +9,12 @@ let produtosLinhaB = [
     {nome:'Rolamento 6006 2R Orig s/caixa ',vista:10.90, prazo:13.90, indice:3},//6 13278
     {nome:'Agitador 8 Blades W10882241 Orig ',vista: 57.90, prazo:65.00, indice:4},//5 1599
     {nome:'Agitador 8 Blades paralelo.',vista: 27.00, prazo:35.00, indice:5},//5 1599
-    {nome:'Atuador do freio 127v Elect. 64500661.',vista:44.50, prazo:47.50, indice:6},//6
+    {nome:'Atuador do freio 127v Elect. 64500661.',vista:39.90, prazo:44.50, indice:6},//6
+    {nome:'Atuador do freio 127v Brastemp Emicol.',vista: 43.00, prazo:47.90, indice:7},//2
+    {nome:'Cambio Eixo LONGO W11300816 Orig.',vista: 174.90, prazo:184.90, indice:8},//2
 
-    // {nome:'Mecanismo EIXO LONGO W11300816 Orig.',vista: 154.90, prazo:167.90, indice:2},//2
-    // {nome:'Mecanismo SMART MINI W11299803 Orig.',vista:125.90 , prazo:139.90, indice:3},//3
-    // {nome:'Mecanismo EIXO CURTO W11300675 Orig.',vista: 145.00, prazo:169.00, indice:4},//4
+    {nome:'Cambio Eixo CURTO W11300675 Orig.',vista: 164.90, prazo:169.20, indice:9},//4
+    {nome:'SMART MINI W11299803 Orig.',vista:139.90 , prazo:147.90, indice:10},//3
     // {nome:'SENSOR TEMP 2,7K W10531315 Orig.',vista:11.90, prazo:13.50, indice:6},//6
     // {nome:'TUBO MONDIAL THORMAC ',vista: 38.90, prazo:39.90, indice:7}//7
 
