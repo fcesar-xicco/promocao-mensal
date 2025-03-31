@@ -18,11 +18,11 @@ h1{
 }
 .sub-titulo{
     margin: 0;
-    color: rgb(255, 153, 0);
+    color: rgb(255, 0, 0);
     text-shadow: none ;
     font-size: 0.8em;
     margin-bottom: 10px;
-    text-shadow: 0 0 0.2em rgb(245, 5, 5), 0 0 0.2em rgb(7, 7, 7)
+    text-shadow: 0 0 0.2em rgb(248, 248, 248), 0 0 0.2em rgb(255, 253, 253)
 }
 
 .titulo-a{

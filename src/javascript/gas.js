@@ -15,7 +15,7 @@ let fluidos = [
     {nome:"Botija de gás R404 Rlx/Uni ",tipo:"R404",vista:660.00, prazo:730.00, indice:8 }, // 12317
 
      // {nome:"Botija de gás R410 Rlx/Uni ",tipo:"R410",vista:890.00, prazo:975.00, indice:9 }, 12303
-    {nome:"Botija de gás R410 Friven ",tipo:"R410",vista:925.00, prazo:990.00, indice:9}, // 12899
+    {nome:"Botija de gás R410 Friven ",tipo:"R410",vista:925.00, prazo:990.00, indice:9}, // 4302
     {nome:"Gás R410 Lata 750g ",tipo:"R410",vista:88.00, prazo:93.00, indice:10}, //  12571
 
     
