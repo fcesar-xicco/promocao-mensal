@@ -3,18 +3,22 @@
 
 let produtosLinhaB = [
     {nome:'Bomba Univ. 127/220v EMICOL',vista:18.90 , prazo:20.90, extra1:15.95 ,extra2:16.95, indice:0},//0
-    {nome:'Bomba Univ. 127/220V c/Prot EMICOL',vista:19.75 , prazo:22.90, indice:1},//1   12951 - 12952
+    //{nome:'Bomba Univ. 127/220V c/Prot EMICOL',vista:19.75 , prazo:22.90, indice:1},//1   12951 - 12952
 
-    {nome:'Rolamento 6006 2RS Orig c/Caixa ',vista: 11.90, prazo:14.90, indice:2},//5 1511
-    {nome:'Rolamento 6006 2R Orig s/caixa ',vista:10.90, prazo:13.90, indice:3},//6 13278
-    {nome:'Agitador 8 Blades W10882241 Orig ',vista: 57.90, prazo:65.00, indice:4},//5 1599
-    {nome:'Agitador 8 Blades paralelo.',vista: 27.00, prazo:35.00, indice:5},//5 1599
-    {nome:'Atuador do freio 127v Elect. 64500661.',vista:39.90, prazo:44.50, indice:6},//6
-    {nome:'Atuador do freio 127v Brastemp Emicol.',vista: 43.00, prazo:47.90, indice:7},//2
-    {nome:'Cambio Eixo LONGO W11300816 Orig.',vista: 174.90, prazo:184.90, indice:8},//2
+    {nome:'Rolamento 6006 2RS Orig c/Caixa ',vista: 11.90, prazo:14.90, indice:1},//5 1511
+    {nome:'Rolamento 6006 2R Orig s/caixa ',vista:10.90, prazo:13.90, indice:2},//6 13278
+    {nome:'Agitador 8 Blades W10882241 Orig ',vista: 57.90, prazo:65.00, indice:3},//5 1599
+    //{nome:'Agitador 8 Blades paralelo.',vista: 27.00, prazo:35.00, indice:4},//5 1599
+    {nome:'Atuador do freio 127v Elect. 64500661.',vista:39.90, prazo:44.50, indice:4},//6
+    {nome:'Atuador do freio 127v Brastemp Emicol.',vista: 43.00, prazo:47.90, indice:5},//2
 
-    {nome:'Cambio Eixo CURTO W11300675 Orig.',vista: 164.90, prazo:169.20, indice:9},//4
-    {nome:'SMART MINI W11299803 Orig.',vista:139.90 , prazo:147.90, indice:10},//3
+    {nome:'Cambio Eixo LONGO W11300816 Orig.',vista: 169.90, prazo:179.90, indice:6, promo:"pascoa"},//2
+    {nome:'Cambio Eixo CURTO W11300675 Orig.',vista: 151.50, prazo:165.50, indice:7, promo:"pascoa"},//4
+    {nome:'SMART MINI W11299803 Orig.',vista:133.90 , prazo:142.90, indice:8, promo:"pascoa"},//3
+
+    {nome:'Mangueria Saida Curva grossa.',vista: 7.00, prazo:7.50, indice:9, promo:"pascoa"},//4
+    {nome:'Mangueria Saida Reta grossa.',vista:6.50 , prazo:7.00, indice:10, promo:"pascoa"},
+    {nome:'Mangueria Entrada 1,40m.',vista:9.00 , prazo:9.50, indice:11, promo:"pascoa"},
     // {nome:'SENSOR TEMP 2,7K W10531315 Orig.',vista:11.90, prazo:13.50, indice:6},//6
     // {nome:'TUBO MONDIAL THORMAC ',vista: 38.90, prazo:39.90, indice:7}//7
 
@@ -45,6 +49,13 @@ produtosLinhaB.forEach((linhaB)=>{
     liBranca.classList.add('item')
     liBranca.classList.add('linhab')
     liBranca.setAttribute('value',linhaB.indice)
+
+    //promoção de pascoa
+    if(linhaB.promo == "pascoa"){
+        liBranca.classList.add('pascoa')
+      }
+      // fim da promoção
+
     ul.appendChild(liBranca)
 
 })

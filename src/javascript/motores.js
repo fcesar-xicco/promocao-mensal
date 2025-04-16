@@ -1,8 +1,8 @@
 
 //-----------------------------------------------MOTORES
 let produtosCompressores = [
-    {nome:'Electrolux 1/4 R134 ECLA002 ',voltagem:110, vista:349.00 , prazo:379.90, indice:0 },//0 11551
-    {nome:'Electrolux 1/4 R134 ECLA003 ',voltagem:220, vista:349.00, prazo:379.90, indice:1  },//1 12054
+    {nome:'Electrolux 1/4 R134 ECLA002 ',voltagem:110, vista:329.00 , prazo:349.90, indice:0, promo:"pascoa" },//0 11551
+    {nome:'Electrolux 1/4 R134 ECLA003 ',voltagem:220, vista:329.00, prazo:349.90, indice:1, promo: "pascoa" },//1 12054
 
     {nome:'Embraco 1/4 R134 EMR80HLR ',voltagem:110, vista:349.90 ,prazo:389.90, indice:2  },//2 11271
     {nome:'Embraco 1/4 R134 EMR80HLR ',voltagem:220, vista:349.90 , prazo:389.90, indice:3  },//3 11272
@@ -16,7 +16,10 @@ let produtosCompressores = [
     {nome:'Embraco 1/3+ R134 FFI12HBX ',voltagem:220, vista:589.90 , prazo:619.90, indice:9  },//5 262
     
 ]
-
+//----------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------
 produtosCompressores.forEach((comp)=>{
     let compressores = document.querySelector('ul.aba-compressor')
     let li = document.createElement('li')
@@ -27,6 +30,10 @@ produtosCompressores.forEach((comp)=>{
     if(comp.indice == 0 || comp.indice == 1 ){
       li.classList.add('electrolux')
     }
+    if(comp.promo == "pascoa"){
+      li.classList.add('pascoa')
+    }
+
     if(comp.voltagem ==220){
       li.innerHTML += `<span class="v220">220V</span>`
     }else{
