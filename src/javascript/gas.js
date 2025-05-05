@@ -9,7 +9,7 @@ let fluidos = [
 
     {nome:"Botija de gás R22 13,6kg Eos ",tipo:"R22",vista:850.00, prazo:920.00, indice:4}, // 1375 
     {nome:"Botija de gás R22 6,8kg ",tipo:"R22",vista:519.00, prazo:568.00, indice:5}, // 13315
-    {nome:"Gás R22 Lata 800g ",tipo:"R22",vista:95.00, prazo:110.00, indice:6}, // 12429
+    {nome:"Gás R22 Lata 900g ",tipo:"R22",vista:110.00, prazo:118.00, indice:6}, // 12429
 
     {nome:"Botija de gás R404 Friven ",tipo:"R404",vista:690.00, prazo:760.00, indice:7}, // 664
     {nome:"Botija de gás R404 Rlx/Uni ",tipo:"R404",vista:660.00, prazo:730.00, indice:8 }, // 12317
