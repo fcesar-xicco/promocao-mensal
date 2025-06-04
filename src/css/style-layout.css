@@ -1,7 +1,12 @@
-
-body{
-    background-image: linear-gradient( to right, #0d6f99,#7abddb, #65b4d6, #0e719b );
+body {
+    /* background-image: linear-gradient( to right, #0d6f99,#7abddb, #65b4d6, #0e719b ); */
+    background-image: url("ARRAIA.jpg");/* Insere a imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o elemento */
+    background-position: 10% 30%; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem seja repetida */
+    background-attachment: fixed; /* Fixa a imagem no fundo */
 }
+
 html {
     font-size: 60.5%;
     scroll-behavior: smooth;
@@ -10,27 +15,27 @@ html {
 
 
 /*----CATALAGOS----*/
-.catalagos{
+.catalagos {
     width: 1040px;
-display: flex;
-margin: auto;
-justify-content: space-between;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
 }
 
-.catalagos a{
+.catalagos a {
     display: block;
-    background-color:#ffffff;
+    background-color: #ffffff;
     border: solid black 1px;
     border-radius: 20px;
     padding: 3px 6px;
     color: #130037;
     font-weight: 900;
-    margin: 17px 10px 10px 10px ;
+    margin: 17px 10px 10px 10px;
     font-size: 1.8em;
     box-shadow: 0px 5px 10px 0px rgb(0, 0, 0);
 }
 
-.catalagos a:hover{
+.catalagos a:hover {
     display: block;
     background: #4614eb;
     color: #ffffff;
@@ -46,3 +51,25 @@ justify-content: space-between;
 /*----RODAPE----*/
 
 
+
+[data-tooltip] {
+  position: relative;
+  font-weight: bold;
+}
+
+[data-tooltip]:after {
+  display: none;
+  position: absolute;
+  top: -5px;
+  padding: 5px;
+  border-radius: 3px;
+  left: calc(100% + 2px);
+  content: attr(data-tooltip);
+  white-space: nowrap;
+  background-color: #0095ff;
+  color: White;
+}
+
+[data-tooltip]:hover:after {
+  display: block;
+}

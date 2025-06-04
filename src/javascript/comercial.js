@@ -2,32 +2,21 @@
 //--------------------------------------------------Comercial
 
 let produtosComercial = [
-    {nome:'Suporte Split 7-12 400MM ',tipo: "Suporte", vista:22.90, prazo:25.90, extra1:21.90 ,extra2:23.90, indice:0, promo:"pascoa" },//0  2265
-    {nome:'Suporte barril 7-12 450MM ',tipo: "Suporte",vista:25.90, prazo:29.90, extra1:24.90 ,extra2:28.90, indice:1, promo:"pascoa" },//1  12211
-    {nome:'Suporte Split 18-24 500MM ',tipo: "Suporte",vista:33.90, prazo:36.90, extra1:31.90 ,extra2:35.90, indice:2, promo:"pascoa" },//2  7288
-    {nome:'Suporte Split 30-36 600MM ',tipo: "Suporte",vista:54.90, prazo:57.90, extra1:51.90 ,extra2:53.90, indice:3, promo:"pascoa" },//3
-    {nome:'Micro motor Elgin 1/40 110/220V ',tipo: "Comercial",vista:54.90 , prazo:57.90, indice:4, promo:"pascoa"},//3  6153
-    {nome:'Micro motor Elgin 1/25 110/220V ',tipo: "Comercial",vista:64.90 , prazo:68.90, indice:5, promo:"pascoa"},//4  2418
-    {nome:'Controlador FULL GAUGE MT512E ',tipo: "Comercial",vista:124.90 , prazo:133.50, indice:6, promo:"pascoa"},//0  3966
-    {nome:'Controlador FULL GAUGE TC900E ',tipo: "Comercial",vista:169.90 , prazo:182.00, indice:7, promo:"pascoa"},//0  4874
-    {nome:'Bico macarico portatil suryha ',tipo: "Comercial",vista:179.00 , prazo:189.00, indice:8},//2  1428
-    {nome:'Gas Macarico Lata Map ZAK 400g ',tipo: "Comercial",vista:25.00 , prazo:28.00, indice:9}//2  1428
+    {nome:'Suporte Split 7-12 400MM ',tipo: "Suporte",cod:2265 ,vista:22.90, prazo:25.90, extra1:21.90 ,extra2:23.90, indice:0, promo:"pascoa" },//0  2265
+    {nome:'Suporte barril 7-12 450MM ',tipo: "Suporte",cod:12211 ,vista:25.90, prazo:29.90, extra1:24.90 ,extra2:28.90, indice:1, promo:"pascoa" },//1  12211
+    {nome:'Suporte Split 18-24 500MM ',tipo: "Suporte",cod:7288 ,vista:33.90, prazo:36.90, extra1:31.90 ,extra2:35.90, indice:2, promo:"pascoa" },//2  7288
+    {nome:'Suporte Split 30-36 600MM ',tipo: "Suporte",cod:7289 ,vista:54.90, prazo:57.90, extra1:51.90 ,extra2:53.90, indice:3, promo:"pascoa" },//3
+    {nome:'Micro motor Elgin 1/40 110/220V ',tipo: "Comercial",cod:6153 ,vista:54.90 , prazo:57.90, indice:4, promo:"pascoa"},//3  6153
+    {nome:'Micro motor Elgin 1/25 110/220V ',tipo: "Comercial",cod:2418 ,vista:64.90 , prazo:68.90, indice:5, promo:"pascoa"},//4  2418
+    {nome:'Controlador FULL GAUGE MT512E ',tipo: "Comercial",cod:3966 ,vista:130.00 , prazo:142.00, indice:6, promo:"pascoa"},//0  3966
+    {nome:'Controlador FULL GAUGE TC900E ',tipo: "Comercial",cod:4874 ,vista:175.90 , prazo:185.00, indice:7, promo:"pascoa"},//0  4874
+    {nome:'Bico macarico portatil suryha ',tipo: "Comercial",cod:1428 ,vista:179.00 , prazo:189.00, indice:8},//2  1428
+    {nome:'Gas Macarico Lata Map ZAK 400g ',tipo: "Comercial",cod:13028 ,vista:25.00 , prazo:28.00, indice:9},//2 13028
+    {nome:'Fluido Reparir 900ml Pescan R141B ',tipo: "Comercial",cod:13234 ,vista:55.00 , prazo:60.00, indice:10}//2 13028
     // {nome:'COBRE FLEXIVEL DIVERSAS BITOLAS ',vista:0 , prazo:0 ,kg10:0 , kg20:0},//2
 
 ]
 
-/*
-2265	SUPORTE SPLIT 7-12 400MM	22,90	25,90	21,90	24,90........................................... 4094
-12211	SUPORTE SPLIT 7-12 450MM	25,90	29,90	24,90	28,90...........................................
-7288	SUPORTE SPLIT 18-24 500MM	33,90	36,90	32,90	35,90...........................................
-6153	MICRO MOTOR ELGIN 1/40 COM SUPORTE E HELICE  110V E 220V	54,90	59,90...........................		
-2418	MICRO MOTOR ELGIN 1/25 COM SUPORTE E HELICE 110V E 220V	63,90	69,90...............................		
-3966	CONTROLADOR FULL GAUGE MT512E REF(3614)	135,00	142,00	...........................................	
-4874	CONTROLADOR FULL GAUGE TC900 BIV   E115/230VAC. (3691) 	179,00	189,00...............................		
-1428	BICO MACARICO PORTATIL AUTOMATICO SURYHA 80150.016   	179,00	189,00...............................
-13028	GAS MACARICO MAP LATA ZAK 400G	25,00	28,00 .......................................................
-
-*/
 
 
 
@@ -38,6 +27,7 @@ produtosComercial.forEach((produto)=>{
     liComercial.setAttribute('class','item')
     liComercial.classList.add('comercial')
     liComercial.setAttribute('value',produto.indice)
+    liComercial.setAttribute('title','cod.' + " " + produto.cod)  // mostrar a descrição ao passar o mouse
     if(produto.tipo == "Suporte"){
         liComercial.classList.add('suportes') 
     }

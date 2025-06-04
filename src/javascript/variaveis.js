@@ -7,8 +7,8 @@ let gas = document.querySelectorAll(".gas")
 let comercial = document.querySelectorAll(".comercial")
 let linhaB = document.querySelectorAll(".linhab")
 let descricao = document.querySelector('#descricao')
-let datafinal = '30/05/2025'
-let tituloPromocao = 'Mês do trabalhador!'
+let datafinal = '30/06/2025'
+let tituloPromocao = 'Arraiá de Ofertas!'
 let abaB = document.querySelector('div.aba-b')
 
 // --------------------------DESCONTOS COMPRESSORES----------------------
