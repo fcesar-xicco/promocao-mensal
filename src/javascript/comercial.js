@@ -5,9 +5,9 @@ let produtosComercial = [
     {nome:'Suporte Split 7-12 400MM ',tipo: "Suporte",cod:2265 ,vista:22.90, prazo:25.90, extra1:21.90 ,extra2:23.90, indice:0, promo:"pascoa" },//0  2265
     {nome:'Suporte barril 7-12 450MM ',tipo: "Suporte",cod:12211 ,vista:25.90, prazo:29.90, extra1:24.90 ,extra2:28.90, indice:1, promo:"pascoa" },//1  12211
     {nome:'Suporte Split 18-24 500MM ',tipo: "Suporte",cod:7288 ,vista:33.90, prazo:36.90, extra1:31.90 ,extra2:35.90, indice:2, promo:"pascoa" },//2  7288
-    {nome:'Suporte Split 30-36 600MM ',tipo: "Suporte",cod:7289 ,vista:54.90, prazo:57.90, extra1:51.90 ,extra2:53.90, indice:3, promo:"pascoa" },//3
+    {nome:'Suporte Split 30-36 600MM ',tipo: "Suporte",cod:7289 ,vista:54.90, prazo:59.90, extra1:51.90 ,extra2:53.90, indice:3, promo:"pascoa" },//3
     {nome:'Micro motor Elgin 1/40 110/220V ',tipo: "Comercial",cod:6153 ,vista:54.90 , prazo:57.90, indice:4, promo:"pascoa"},//3  6153
-    {nome:'Micro motor Elgin 1/25 110/220V ',tipo: "Comercial",cod:2418 ,vista:64.90 , prazo:68.90, indice:5, promo:"pascoa"},//4  2418
+    {nome:'Micro motor Elgin 1/25 110/220V ',tipo: "Comercial",cod:2418 ,vista:65.90 , prazo:69.90, indice:5, promo:"pascoa"},//4  2418
     {nome:'Controlador FULL GAUGE MT512E ',tipo: "Comercial",cod:3966 ,vista:130.00 , prazo:142.00, indice:6, promo:"pascoa"},//0  3966
     {nome:'Controlador FULL GAUGE TC900E ',tipo: "Comercial",cod:4874 ,vista:175.90 , prazo:185.00, indice:7, promo:"pascoa"},//0  4874
     {nome:'Bico macarico portatil suryha ',tipo: "Comercial",cod:1428 ,vista:179.00 , prazo:189.00, indice:8},//2  1428

@@ -16,7 +16,7 @@ let fluidos = [
 
      
     {nome:"Botija de gás R410 Friven ",tipo:"R410",cod:4302 ,vista:925.00, prazo:990.00, indice:9}, // 4302
-    {nome:"Gás R410 Lata 750g ",tipo:"R410",cod:12571 ,vista:88.00, prazo:93.00, indice:10}, //  12571
+    {nome:"Gás R410 Lata 750g ",tipo:"R410",cod:12571 ,vista:90.00, prazo:98.00, indice:10}, //  12571
 
     
 
