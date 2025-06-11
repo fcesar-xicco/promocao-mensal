@@ -13,11 +13,7 @@ let produtoCompressores = [
     { nome: 'Comp. Tecumseh 1/4 R134 220V TA1380Y', vista: 389.90, prazo: 420.90 },//5
 
 ]
-
-
-
-
-    
+   
 produtoCompressores.forEach((compressor) => {
 
         adicionarProduto(compressor)
@@ -30,15 +26,6 @@ function adicionarProduto(compressor){
     li.setAttribute('value',compre)
     compressores.appendChild(li)    
 }
-
-
-
-
-
-
-
-
-
 
 
 linhaBranca.addEventListener('click', () => {

@@ -14,9 +14,9 @@ let produtosLinhaB = [
     {nome:'Atuador do freio 127v Elect. 64500661.',cod:2332,vista:44.50, prazo:47.50, indice:6},//6
     //{nome:'Atuador do freio 127v Brastemp Emicol.',cod:,vista: 43.00, prazo:47.90, indice:5},//2
 
-    {nome:'Cambio Eixo LONGO W11300816 Orig.',cod:5571,vista: 185.00, prazo:192.00, indice:7, promo:"pascoa"},//2
-    {nome:'Cambio Eixo CURTO W11300675 Orig.',cod:4711,vista: 163.500, prazo:170.00, indice:8, promo:"pascoa"},//4
-    {nome:'Cambio Smart MINI W11299803 Orig.',cod:5570,vista:158.00 , prazo:165.00, indice:9, promo:"pascoa"},//3
+    {nome:'Cambio Eixo LONGO W11300816 Orig.',cod:5571,vista: 175.00, prazo:182.00, indice:7, promo:"pascoa"},//2
+    {nome:'Cambio Eixo CURTO W11300675 Orig.',cod:4711,vista: 158.00, prazo:163.00, indice:8, promo:"pascoa"},//4
+    {nome:'Cambio Smart MINI W11299803 Orig.',cod:5570,vista: 145.00 , prazo:151.00, indice:9, promo:"pascoa"},//3
 
     {nome:'Mangueira Saida Curva/Reta grossa.',cod:"11912 /12060",vista: 7.00, prazo:7.50, indice:10, promo:"pascoa"},//4
     {nome:'Mangueira Entrada 1,40m.',cod:10483,vista:9.50 , prazo:10.00, indice:11, promo:"pascoa"},
