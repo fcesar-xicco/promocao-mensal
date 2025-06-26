@@ -2,21 +2,21 @@
 
 
 let fluidos = [
-    {nome:"Botija de gás R134 Uni ",tipo:"R134",cod:13083 , vista:950.00, prazo:1050.00, indice:0 }, // 13083
-    {nome:"Botija de gás R134 Friven ",tipo:"R134",cod:1171 , vista:980.00, prazo:1070.00, indice:1}, // 1171
+    {nome:"Botija de gás R134 Uni ",tipo:"R134",cod:13083 , vista:830.00, prazo:890.00, indice:0 }, // 13083
+    {nome:"Botija de gás R134 Friven ",tipo:"R134",cod:1171 , vista:950.00, prazo:1070.00, indice:1}, // 1171
     {nome:"Gás R134 Lata 750g ",tipo:"R134",cod:6404 , vista:68.90, prazo:72.90, indice:2}, // 6404
     {nome:"Gás R32 3KG ZAK",cod:13299 ,vista:278.00, prazo:315.00, indice:3 }, // 13299
 
-    {nome:"Botija de gás R22 13,6kg Eos ",tipo:"R22",cod:1375 ,vista:915.00, prazo:995.00, indice:4}, // 1375 
-    {nome:"Botija de gás R22 6,8kg ",tipo:"R22",cod:13315 ,vista:519.00, prazo:568.00, indice:5}, // 13315
-    {nome:"Gás R22 Lata 900g ",tipo:"R22",cod:9346 ,vista:120.00, prazo:129.00, indice:6}, // 9346
+    {nome:"Botija de gás R22 13,6kg Eos ",tipo:"R22",cod:1375 ,vista:915.00, prazo:995.00, indice:4}, // 1375
+    {nome:"Botija de gás R22 13,6kg Friven ",tipo:"R22",cod:13421 ,vista:980.00, prazo:1035.00, indice:5}, // 1375
+    {nome:"Botija de gás R22 6,8kg ",tipo:"R22",cod:13315 ,vista:519.00, prazo:568.00, indice:6}, // 13315
+    {nome:"Gás R22 Lata 900g ",tipo:"R22",cod:9346 ,vista:120.00, prazo:129.00, indice:7}, // 9346
 
-    {nome:"Botija de gás R404 Friven ",tipo:"R404",cod:664 ,vista:720.00, prazo:780.00, indice:7}, // 664
-    {nome:"Botija de gás R404 Rlx/Uni ",tipo:"R404",cod:12317 ,vista:660.00, prazo:730.00, indice:8 }, // 12317
+    {nome:"Botija de gás R404 Friven ",tipo:"R404",cod:664 ,vista:720.00, prazo:780.00, indice:8}, // 664
+    {nome:"Botija de gás R404 Rlx/Uni ",tipo:"R404",cod:12317 ,vista:660.00, prazo:730.00, indice:9 }, // 12317
 
-     
-    {nome:"Botija de gás R410 Friven ",tipo:"R410",cod:4302 ,vista:925.00, prazo:990.00, indice:9}, // 4302
-    {nome:"Gás R410 Lata 750g ",tipo:"R410",cod:12571 ,vista:90.00, prazo:98.00, indice:10}, //  12571
+    {nome:"Botija de gás R410 Friven ",tipo:"R410",cod:4302 ,vista:925.00, prazo:990.00, indice:10}, // 4302
+    {nome:"Gás R410 Lata 750g ",tipo:"R410",cod:12571 ,vista:90.00, prazo:98.00, indice:11}, //  12571
 
     
 
