@@ -70,7 +70,7 @@ itemComercial.forEach((item) =>{
             a vista: ${produtosComercial[item.value]['vista'].toFixed(2)}
     
             Promoção ${tituloPromocao}!!
-            validade até ${datafinal}
+            prorrogado até ${datafinal}
             `
         }
 

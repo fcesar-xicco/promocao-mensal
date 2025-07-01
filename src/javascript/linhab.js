@@ -88,7 +88,7 @@ function escolhidolinhaB(item){
                                     
         descricao.innerText += `
         Promoção ${tituloPromocao}!!
-        validade até ${datafinal}
+        prorrogado até ${datafinal}
         `
 
 

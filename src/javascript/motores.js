@@ -97,7 +97,7 @@ function escolhidoCompressor(mot){
         }
         descricao.innerText += `
         Promoção ${tituloPromocao}!!
-        validade até ${datafinal}
+        prorrogado até ${datafinal}
         ` 
 
 
