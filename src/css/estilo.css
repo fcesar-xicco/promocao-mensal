@@ -196,6 +196,15 @@ h2{
     font-weight: 900;
 }
 
+.yellow{
+    background-color: rgb(251, 255, 0);
+    /* box-shadow: 0 0 0.2em rgb(250, 249, 249),0 0 1em rgb(255, 255, 255); */
+    border: solid rgb(0, 0, 0) 2px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+
 
 .titulo-principal1{
  display: none;

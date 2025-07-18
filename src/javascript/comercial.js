@@ -12,7 +12,7 @@ let produtosComercial = [
     {nome:'Controlador FULL GAUGE TC900E ',tipo: "Comercial",cod:4874 ,vista:175.90 , prazo:185.00, indice:7, promo:"pascoa"},//0  4874
     {nome:'Bico macarico portatil suryha ',tipo: "Comercial",cod:1428 ,vista:179.00 , prazo:189.00, indice:8},//2  1428
     {nome:'Gas Macarico Lata Map ZAK 400g ',tipo: "Comercial",cod:13028 ,vista:25.00 , prazo:28.00, indice:9},//2 13028
-    {nome:'Fluido Reparir 900ml Pescan R141B ',tipo: "Comercial",cod:13234 ,vista:55.00 , prazo:60.00, indice:10}//2 13028
+    {nome:'Fluido Reparir 900ml Pescan R141B ',tipo: "Comercial",cod:13234 ,vista:55.00 , prazo:60.00, indice:10,}//2 13028
     // {nome:'COBRE FLEXIVEL DIVERSAS BITOLAS ',vista:0 , prazo:0 ,kg10:0 , kg20:0},//2
 
 ]
@@ -33,8 +33,8 @@ produtosComercial.forEach((produto)=>{
     }
 
     //promoção de pascoa
-    if(produto.promo == "pascoa"){
-        liComercial.classList.add('pascoa')
+    if(produto.promo == "yellow"){
+        liComercial.classList.add('yellow')
       }
       // fim da promoção
     abaComercial.appendChild(liComercial)
