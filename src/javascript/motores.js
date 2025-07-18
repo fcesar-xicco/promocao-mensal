@@ -1,8 +1,8 @@
 
 //-----------------------------------------------MOTORES
 let produtosCompressores = [
-    {nome:'Electrolux 1/4 R134 ECLA002 ',cod:11551,voltagem:110, vista:319.00 , prazo:339.90, indice:0, promo:"pascoa" },//0 11551
-    {nome:'Electrolux 1/4 R134 ECLA003 ',cod:12054,voltagem:220, vista:319.00, prazo:339.90, indice:1, promo: "pascoa" },//1 12054
+    {nome:'Electrolux 1/4 R134 ECLA002 ',cod:11551,voltagem:110, vista:339.00 , prazo:359.90, indice:0},//0 11551
+    {nome:'Electrolux 1/4 R134 ECLA003 ',cod:12054,voltagem:220, vista:339.00, prazo:359.90, indice:1},//1 12054
 
     {nome:'Embraco 1/4 R134 EMR80HLR ',cod:11271,voltagem:110, vista:339.90 , prazo:359.90, indice:2  },//2 11271
     {nome:'Embraco 1/4 R134 EMR80HLR ',cod:11272,voltagem:220, vista:339.90 , prazo:359.90, indice:3  },//3 11272
@@ -17,9 +17,7 @@ let produtosCompressores = [
     
 ]
 //----------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------
-//----------------------------------------------------------------------------------
+
 produtosCompressores.forEach((comp)=>{
     let compressores = document.querySelector('ul.aba-compressor')
     let li = document.createElement('li')
