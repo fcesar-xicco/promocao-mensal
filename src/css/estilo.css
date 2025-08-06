@@ -4,10 +4,9 @@
     margin-top: 20px;
 }
 h1{
-    margin-top: 10px;
     font-size: 4.9em;
-    color: yellow;
-    text-shadow: 0 0 0.2em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0)    
+    color: rgb(14, 7, 113);
+    text-shadow: 0 0 0.2em rgb(255, 255, 255), 0 0 0.2em rgb(0, 0, 0)    
 }
 .titulo-principal{
     display: flex;
@@ -15,6 +14,7 @@ h1{
     align-items: center;
     text-align: center;
     height: 170px;
+    
 }
 .sub-titulo{
     margin: 0;
@@ -26,10 +26,10 @@ h1{
 }
 
 .titulo-a{
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .titulo-b{
-    margin-top: 90px;
+    margin-top: 50px;
 }
 .aba-descricao{
     height: 250px;
@@ -40,24 +40,40 @@ h2{
     font-size: 2.5em;  
 }
 .principal{
-    margin:0 30px;
+    margin:0 0px;
+    height: 550px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+
 }
 
-.aba-item{   /*-------- ABA DE CADA AREA-----*/
-    width: 370px;
+.abas{
+
+    height: 500px; /* tamanho das abas!! */
+}
+
+.aba-a, .aba-c{ /*tamanho de cada aba em colunas*/
+    width: 460px;
+
+}
+.aba-b{
+    height: 550px;
+    width: 380px;
+}
+.aba-item{   /*-------- ABAS das areas  Compressores, linha branca, comercial e fluídos-----*/
+    width: 460px; /*tamanho da aba itens em horizontal*/
+    height: 180px; /* tamanho da aba itens em vertical 180px */
     display: flex; 
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 
-.item{
 
+.item{
     text-align: center;
-    width: 75px;
-    height: 62px;
+    width: 80px;
+    height: 65px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px 0 black;
     padding: 7px 5px;
@@ -71,16 +87,9 @@ h2{
 
 }
 
-.aba-a, .aba-c,.aba-b{
-    padding:0px 20px;
-    width: 360px;
-    height: 545px;
-}
 
-.tipoAreas{
-    margin-top: 5px;
-    height: 180px;
-}
+
+
 
 
 .fontBold{
@@ -113,9 +122,11 @@ h2{
 }
 
 
+
 .abas ul{    
     margin-bottom: 40px;
     border-radius: 20px;
+    
 }
 
 
@@ -143,7 +154,7 @@ h2{
 .comercial{
     font-size: 112%;
     font-weight: bold;
-    background-color: #567882;
+    background-color: #83a3ad;
 }
 .suportes{
     font-weight: bold;
@@ -173,7 +184,7 @@ h2{
       background-color: orangered;
   }
   .gasr22{    
-      background-color: rgb(0, 119, 0);
+      background-color: rgb(5, 214, 5);
   }
   .gasr134{
       background-color: rgb(35, 245, 245);
@@ -188,7 +199,7 @@ h2{
     padding: 3px;
 }
 
-.pascoa{ 
+.pais{ 
     background-color: rgb(30, 255, 0);
     /* box-shadow: 0 0 0.2em rgb(250, 249, 249),0 0 1em rgb(255, 255, 255); */
     border: solid rgb(0, 0, 0) 2px;
@@ -269,7 +280,7 @@ h2{
     width: 290px;
     min-height: 100px;
     margin: auto;
-    margin-top: 160PX;   
+    margin-top: 170PX;   
     background-color: #ffffff;
     font-size: 14px;
     border-Radius: 10px;

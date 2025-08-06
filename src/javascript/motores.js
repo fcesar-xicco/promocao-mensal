@@ -1,22 +1,40 @@
 
 //-----------------------------------------------MOTORES
 let produtosCompressores = [
-    {nome:'Electrolux 1/4 R134 ECLA002 ',cod:11551,voltagem:110, vista:339.00 , prazo:359.90, indice:0},//0 11551
-    {nome:'Electrolux 1/4 R134 ECLA003 ',cod:12054,voltagem:220, vista:339.00, prazo:359.90, indice:1},//1 12054
+    {nome:'Electrolux 1/4 R134 ECLA002 ',cod:11551,voltagem:110, vista:329.00 , prazo:339.90, indice:0},//0 11551
+    {nome:'Electrolux 1/4 R134 ECLA003 ',cod:12054,voltagem:220, vista:329.00, prazo:339.90, indice:1},//1 12054
 
-    {nome:'Embraco 1/4 R134 EMR80HLR ',cod:11271,voltagem:110, vista:339.90 , prazo:359.90, indice:2  },//2 11271
-    {nome:'Embraco 1/4 R134 EMR80HLR ',cod:11272,voltagem:220, vista:339.90 , prazo:359.90, indice:3  },//3 11272
+    {nome:'Embraco 1/4 R134 EMR80HLR ',cod:11271,voltagem:110, vista:299.90 , prazo:329.90, indice:2  },//2 11271
+    {nome:'Embraco 1/4 R134 EMR80HLR ',cod:11272,voltagem:220, vista:299.90 , prazo:329.90, indice:3  },//3 11272
 
-    {nome:'Embraco 1/5 R134 EMR70HLR ',cod:12549,voltagem:110, vista:345.90 , prazo:379.90, indice:4  },//4 12549
-    {nome:'Embraco 1/5 R134 EMR70HLR ',cod:12608,voltagem:220, vista:355.90 , prazo:379.90, indice:5  },//5 12608
+    {nome:'Embraco 1/5 R134 EMR70HLR ',cod:12549,voltagem:110, vista:330.90 , prazo:345.00, indice:4  },//4 12549
+    {nome:'Embraco 1/5 R134 EMR70HLR ',cod:12608,voltagem:220, vista:330.90 , prazo:365.90, indice:5  },//5 12608
 
-    {nome:'Embraco 1/3 R134 EMR100HLC ',cod:12552,voltagem:127, vista:480.00 , prazo:510.90, indice:6  },//6 12552
-    {nome:'Embraco 1/3 R134 EMR100HLC ',cod:12547,voltagem:220, vista:480.00 , prazo:510.90, indice:7  },//7 12547
-    {nome:'Embraco 1/3+ R134 FFI12HBX ',cod:264,voltagem:127, vista:589.90 , prazo:619.90, indice:8  },//8 264
-    {nome:'Embraco 1/3+ R134 FFI12HBX ',cod:262,voltagem:220, vista:589.90 , prazo:619.90, indice:9  },//9 262
+    {nome:'Embraco 1/3 R134 EMR100HLC ',cod:12552,voltagem:127, vista:490.00 , prazo:519.00, indice:6  },//6 12552
+    {nome:'Embraco 1/3 R134 EMR100HLC ',cod:12547,voltagem:220, vista:490.00 , prazo:519.00, indice:7  },//7 12547
+    {nome:'Embraco 1/3+ R134 FFI12HBX ',cod:264,voltagem:127, vista:590.00 , prazo:630.90, indice:8  },//8 264
+    {nome:'Embraco 1/3+ R134 FFI12HBX ',cod:262,voltagem:220, vista:590.00 , prazo:630.90, indice:9  },//9 262
     {nome:'KIT Instalação Embraco 1/4',cod:"11271/11272 - 7229 - 7169 - 692",voltagem:"110v/220v", vista:349.90 , prazo:369.90, indice:10, promo:"yellow"  }//10 262
     
 ]
+
+/*
+11551	COMPRESSOR ECLA002 127V 1/4 R134 ELECTROLUX	339,00	329,00
+12054	COMPRESSOR ECLA003 220V 1/4 R134A ELECTROLUX 41044709	339,00	329,00
+11271	COMPRESSOR EMBRACO 1/4 MENOR 127V R134 EMR80HLR	329,90	299,90
+11272	COMPRESSOR EMBRACO 1/4 MENOR 220V R134 EMR80HLR	329,90	299,90
+12549	COMPRESSOR EMBRACO 1/5 127V R134 EMR70HLR	345,00	330,00
+12608	COMPRESSOR EMBRACO 1/5 220V R134 EMR70HLR	365,00	330,00
+12552	COMPRESSOR EMBRACO 1/3 127V R134 EMR100HLC	519,00	490,00
+12547	COMPRESSOR EMBRACO 1/3 220V R134 EMR100HLC	519,00	490,00
+264	COMPRESSOR EMBRACO 1/3+ 127V R134 FFI12HBX	630,00	590,00
+262	COMPRESSOR EMBRACO 1/3+ 220V R134 FFI12HBX 	630,00	590,00
+
+
+
+*/
+
+
 //----------------------------------------------------------------------------------
 
 produtosCompressores.forEach((comp)=>{
@@ -119,7 +137,7 @@ function escolhidoCompressor(mot){
         }else{
           descricao.innerText += `
         Promoção ${tituloPromocao}!!
-        prorrogado até ${datafinal}
+        ${datafinal}
         ` 
         }
         

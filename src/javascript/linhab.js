@@ -2,41 +2,44 @@
 //--------------------------------------------------LINHA BRANCA
 
 let produtosLinhaB = [
-    {nome:'Bomba Univ. 127/220v EMICOL',cod:" 10245 / 10246" ,vista:18.90 , prazo:20.90, extra1:15.95 ,extra2:16.95, indice:0},//0 10245
-    {nome:'Bomba Univ. 127/220v Lava/seca c/Prot Emicol',cod:" 12951 / 12952" ,vista:22.90 , prazo:24.90, extra1:21.90 ,extra2:23.90, indice:1},//0 10245
-    //{nome:'Bomba Univ. 127/220V c/Prot EMICOL',vista:19.75 , prazo:22.90, indice:1},//1   12951 - 12952
+    {nome:'Bomba Univ. 127/220v ASKOL',cod:"12168/12169" ,vista:21.90 , prazo:23.90, extra1:18.90 ,extra2:21.90, indice:0},//0 extra1:15.95 ,extra2:16.95
+    {nome:'Bomba Univ. 127/220v EMICOL',cod:" 10245 / 10246" ,vista:18.90 , prazo:19.90,extra1:15.95 ,extra2:16.95,  indice:1},//1 10245 ,
+    {nome:'Bomba Univ. 127/220v Emicol Lava/seca ',cod:" 12951 / 12952" ,vista:22.90 , prazo:24.90,  indice:2},//2 10245 extra1:21.90 ,extra2:23.90,
+    {nome:'Agitador 8 Blades W10882241 Orig ',cod:1599,vista: 71.90, prazo:78.90, indice:3},//3 1599
+    {nome:'Agitador 8 Blades Burdog paralelo',cod:8529,vista: 29.90, prazo:35.00, indice:4},//4 1599
+   
 
-    {nome:'Rolamento 6006 2RS Orig c/Caixa ',cod:1511,vista: 13.90, prazo:14.90, indice:2},//5 1511
-    {nome:'Rolamento 6006 2R Orig s/caixa ',cod:13278,vista:10.90, prazo:12.90, indice:3},//6 13278
-    {nome:'Agitador 8 Blades W10882241 Orig ',cod:1599,vista: 73.00, prazo:79.00, indice:4},//5 1599
-    {nome:'Agitador 8 Blades Burdog paralelo',cod:8529,vista: 30.00, prazo:35.00, indice:5},//5 1599
+    {nome:'Rolamento 6006 2RS Orig c/Caixa ',cod:1511,vista: 12.90, prazo:14.90, indice:5},//5 1511
+    {nome:'Rolamento 6006 2R Orig s/caixa ',cod:13278,vista:10.90, prazo:11.90, indice:6},//6 13278
+    {nome:'Cambio Eixo LONGO W11300816 Orig.',cod:5571,vista: 153.00, prazo:161.00, indice:7, promo: "pais" },//7
+    {nome:'Cambio Eixo CURTO W11300675 Orig.',cod:4711,vista: 159.90, prazo:166.90, indice:8, promo: "pais" },//8
+    {nome:'Cambio Eixo MINI W11299803 Orig.',cod:5570,vista: 129.90, prazo:135.00, indice:9, promo: "pais"},//8
 
-    {nome:'Atuador do freio 127v Elect. 64500661.',cod:2332,vista:44.50, prazo:47.50, indice:6},//6
-    //{nome:'Atuador do freio 127v Brastemp Emicol.',cod:,vista: 43.00, prazo:47.90, indice:5},//2
-
-    {nome:'Cambio Eixo LONGO W11300816 Orig.',cod:5571,vista: 175.00, prazo:182.00, indice:7, promo:"pascoa"},//2
-    {nome:'Cambio Eixo CURTO W11300675 Orig.',cod:4711,vista: 158.00, prazo:163.00, indice:8, promo:"pascoa"},//4
-    {nome:'Cambio Smart MINI W11299803 Orig.',cod:5570,vista: 145.00 , prazo:151.00, indice:9, promo:"pascoa"},//3
-
-    {nome:'Mangueira Saida Curva/Reta grossa.',cod:"11912 /12060",vista: 7.00, prazo:7.50, indice:10, promo:"pascoa"},//4
-    {nome:'Mangueira Entrada 1,40m.',cod:10483,vista:9.50 , prazo:10.00, indice:11, promo:"pascoa"},
-    // {nome:'SENSOR TEMP 2,7K W10531315 Orig.',vista:11.90, prazo:13.50, indice:6},//6
-    // {nome:'TUBO MONDIAL THORMAC ',vista: 38.90, prazo:39.90, indice:7}//7
-
-
+    {nome:'Mangueira Saida Curva/Reta grossa.',cod:"11912 /12060",vista: 7.00, prazo:7.50, indice:10 },//10
+    {nome:'Mangueira Entrada 1,40m.',cod:10483,vista:9.50 , prazo:10.00, indice:11 }, //11  
+    {nome:'Sensor temp. 2,7K W10531315 Orig.',cod: 8601 ,vista:11.90, prazo:13.50, indice:12},//12
+    {nome:'Aruador de freio 127V 64500661 Orig.',cod: 2332,vista:11.90, prazo:13.50, indice:13},//12
+    {nome:'Retentor Baixo W10751509 Orig.',cod:833,vista:12.90, prazo:13.90, indice:14},//14 833
 
 ] 
 
-/*
-12951	ELETROBOMBA UNIVERSAL 127V C/ PROTETOR TERMICO EMICOL 32221910000	19,75	22,90		
-12952	ELETROBOMBA UNIVERSAL 220V C/ PROTETOR TERMICO EMICOL 32217410000	19,75	22,90		
-1511	ROLAMENTO 6006 2RS W10897149 ANTIGO 326075950 WHIRLPOOL ORIGINAL	11,90	14,90		
-13278	ROLAMENTO 6006 2R ORIGINAL W11486744	10,90	13,90		
-10245	ELETROBOMBA UNIVERSAL 127V EMICOL 32216110000	15,95	16,95	ACIMA DE 5 UNIDADES	
-10246	ELETROBOMBA UNIVERSAL 220V EMICOL 32216210000	15,95	16,95	ACIMA DE 5 UNIDADES	
-1599	AGITADOR 8 BLADES BWC06/7/8/10/11 CWE6/8/0 W10882241 WHIRLPOOL	57,90	65,00		
-2332	ATUADOR DO FREIO 127V 64500661 ELECTROLUX	44,50	47,50		
-8529	AGITADOR BURDOG 8 BLADES BRASTEMP W10882241A PARALELO	27,00	35,00		
+/*                      LINHA BRANCA DIA DOS PAIS
+
+12168/12169	ELETROBOMBA UNIVERSAL ASKOLL S/ CARCAÇA 110V / 220V	    21,90	18,90
+10245/10246	ELETROBOMBA UNIVERSAL EMICOL  FIO FUSIVEL 127/220V	    19,90	18,90
+12951/12952	ELETROBOMBA UNIVERSAL EMICOL LAVA E SECA 34W            24,90	22,90
+1599	AGITADOR 8 BLADES W10882241 WHIRLPOOL ORIG	                78,90	71,90
+8529	AGITADOR 8 BLADES BURDOG BRASTEMP PARALELO	                35,00	29,90
+
+1511	ROLAMENTO 6006 W10897149  WHIRLPOOL ORIG. c /caixa	         14,90	12,90
+13278	ROLAMENTO 6006 2R ORIGINAL W11486744  s/caixa	            11,90	10,50
+4711	MECANISMO MONDIAL EIXO CURTO WHIRLPOOL W11300675	        161,00	153,00
+5571	MECANISMO CONSUL/BRAST EIXO LONGO W10297343/               	166,90	159,90
+5570	MECANISMO SMART MINI CWH12 / CWE11 W11299803 WHIRLPOOL     	135,00	129,90
+
+833	    RETENTOR BAIXO W10751509  W10791633 WHIRLPOOL ORIGINAL	    13,90	12,90
+2332	ATUADOR DO FREIO 127V 64500661 ELECTROLUX - USE A236745501	55,00	52,00
+
 
 */
 
@@ -52,8 +55,8 @@ produtosLinhaB.forEach((linhaB)=>{
     liBranca.setAttribute('value',linhaB.indice)
     liBranca.setAttribute('title','cod.' + " " +linhaB.cod)
     //promoção de pascoa
-    if(linhaB.promo == "pascoa"){
-        liBranca.classList.add('pascoa')
+    if(linhaB.promo == "pais"){
+        liBranca.classList.add('pais')
       }
       // fim da promoção
 
@@ -88,7 +91,7 @@ function escolhidolinhaB(item){
                                     
         descricao.innerText += `
         Promoção ${tituloPromocao}!!
-        prorrogado até ${datafinal}
+        ${datafinal}
         `
 
 

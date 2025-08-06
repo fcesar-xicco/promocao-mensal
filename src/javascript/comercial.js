@@ -2,21 +2,50 @@
 //--------------------------------------------------Comercial
 
 let produtosComercial = [
-    {nome:'Suporte Split 7-12 400MM ',tipo: "Suporte",cod:2265 ,vista:22.90, prazo:25.90, extra1:21.90 ,extra2:23.90, indice:0, promo:"pascoa" },//0  2265
-    {nome:'Suporte barril 7-12 450MM ',tipo: "Suporte",cod:12211 ,vista:25.90, prazo:29.90, extra1:24.90 ,extra2:28.90, indice:1, promo:"pascoa" },//1  12211
-    {nome:'Suporte Split 18-24 500MM ',tipo: "Suporte",cod:7288 ,vista:33.90, prazo:36.90, extra1:31.90 ,extra2:35.90, indice:2, promo:"pascoa" },//2  7288
-    {nome:'Suporte Split 30-36 600MM ',tipo: "Suporte",cod:7289 ,vista:54.90, prazo:59.90, extra1:51.90 ,extra2:53.90, indice:3, promo:"pascoa" },//3
-    {nome:'Micro motor Elgin 1/40 110/220V ',tipo: "Comercial",cod:6153 ,vista:54.90 , prazo:57.90, indice:4, promo:"pascoa"},//3  6153
-    {nome:'Micro motor Elgin 1/25 110/220V ',tipo: "Comercial",cod:2418 ,vista:65.90 , prazo:69.90, indice:5, promo:"pascoa"},//4  2418
-    {nome:'Controlador FULL GAUGE MT512E ',tipo: "Comercial",cod:3966 ,vista:130.00 , prazo:142.00, indice:6, promo:"pascoa"},//0  3966
-    {nome:'Controlador FULL GAUGE TC900E ',tipo: "Comercial",cod:4874 ,vista:175.90 , prazo:185.00, indice:7, promo:"pascoa"},//0  4874
-    {nome:'Bico macarico portatil suryha ',tipo: "Comercial",cod:1428 ,vista:179.00 , prazo:189.00, indice:8},//2  1428
-    {nome:'Gas Macarico Lata Map ZAK 400g ',tipo: "Comercial",cod:13028 ,vista:25.00 , prazo:28.00, indice:9},//2 13028
-    {nome:'Fluido Reparir 900ml Pescan R141B ',tipo: "Comercial",cod:13234 ,vista:55.00 , prazo:60.00, indice:10,}//2 13028
-    // {nome:'COBRE FLEXIVEL DIVERSAS BITOLAS ',vista:0 , prazo:0 ,kg10:0 , kg20:0},//2
+    {nome:'Suporte Split 7-12 400MM ',tipo: "Suporte",cod:2265 ,vista:21.50, prazo:23.90, indice:0, },//0  2265
+    {nome:'Suporte barril 7-12 450MM ',tipo: "Suporte",cod:12211 ,vista:24.50, prazo:27.90, indice:1,},//1  12211
+    {nome:'Suporte Split 18-24 500MM ',tipo: "Suporte",cod:7288 ,vista:32.90, prazo:36.90, indice:2, },//2  7288
+    // {nome:'Suporte Split 30-36 600MM ',tipo: "Suporte",cod:7289 ,vista:54.90, prazo:59.90, extra1:51.90 ,extra2:53.90, indice:3, promo:"pascoa" },//3
+    // {nome:'Suporte Split 48-60 600MM ',tipo: "Suporte",cod:7289 ,vista:54.90, prazo:59.90, extra1:51.90 ,extra2:53.90, indice:3, promo:"pascoa" },//3
+    {nome:'Micro motor Elgin 1/40 110/220V ',tipo: "Comercial",cod:6153 ,vista:49.90 , prazo:52.90, indice:3,},//3  6153
+    {nome:'Micro motor Elgin 1/25 110/220V ',tipo: "Comercial",cod:2418 ,vista:58.90 , prazo:62.90, indice:4,},//4  2418
+
+    {nome:'Controlador FULL GAUGE MT512E',tipo: "Comercial",cod:3966 ,vista:129.90 , prazo:135.00, indice:5,},//5  3966
+    {nome:'Controlador FULL GAUGE TC900E',tipo: "Comercial",cod:4874 ,vista:175.90 , prazo:185.00, indice:6,},//6 4874
+    {nome:'Bico macarico portatil suryha',tipo: "Comercial",cod:1428 ,vista:180.00 , prazo:195.00, indice:7},//7  1428
+    {nome:'Gas Macarico Lata Map ZAK 400g',tipo: "Comercial",cod:13028 ,vista:25.00 , prazo:29.90, indice:8},//8 13028
+    {nome:'Oleo Bomba de vacuo 1lt Pecan',tipo: "Comercial",cod:13237 ,vista:42.90 , prazo:45.90, indice:9,},//9  4874
+    
+
+    {nome:'Placa Univ. Ar Cond. SURYHA 80150.064 ',tipo: "Comercial",cod:392 ,vista:118.00 , prazo:125.00, indice:10,},//10 3966
+    {nome:'Fluído  AIR REPAIR 500ML PESCAN',tipo: "Comercial",cod:13233 ,vista:29.90 , prazo:34.90, indice:11},//11 13028
+    {nome:'Espuma Limpadora Air repair Pescan',tipo: "Comercial",cod:13238 ,vista:19.90 , prazo:21.90, indice:12},//12  1428
+    {nome:'Manifold Digital 2 Vias MS/100 - Bluetooth',tipo: "Comercial",cod:13163 ,vista:690.00 , prazo:730.00, indice:13},//14 13028
+    {nome:'Conj. Manilfold R410/R32 Mang 90cm',tipo: "Comercial",cod:8378 ,vista:150.00 , prazo:160.00, indice:14}//15 13028
+    
 
 ]
 
+/*              MÊS DOS PAIS
+2265	SUPORTE SPLIT 7-12 400MM	23,90	21,50
+12211	SUPORTE SPLIT 7-12 450MM	27,90	24,50
+7288	SUPORTE SPLIT 18-24 500MM	36,90	32,90
+6153	MICRO MOTOR ELGIN 1/40 COM SUPORTE E HELICE  110V E 220V	52,90	49,90
+2418	MICRO MOTOR ELGIN 1/25 COM SUPORTE E HELICE 110V E 220V	62,90	58,90
+
+3966	CONTROLADOR FULL GAUGE DIGITAL MT512E 127V/220V 	135,00	129,90
+4874	CONTROLADOR FULL GAUGE TC900E POWER 115/230V	    185,00	175,00
+1428	BICO MACARICO PORTATIL AUTOMATICO SURYHA80150.016   205,00	180,00
+13028	GAS MACARICO MAP 400G LATA ZAK	                    29,90	25,00
+13237	OLEO PARA BOMBA DE VACUO AIR REPAIR 1lt PESCAN	    45,90	42,90
+
+392	KIT CENTRAL ELETRICA SURYHA 80150.064   	            125,00	118,00
+13233	FLUIDO AIR REPAIR 500ML PESCAN (SUBSTITUI 141B)	    34,90	29,90
+13238	ESPUMA LIMPADORA AIR REPAIR- 300ML/290G PESCAN	    21,90	19,90
+13163	MANIFOLD DIGITAL 2 VIAS MS-100 - BLUETOOTH	        730,00	690,00
+8378	CONJUNTO MANIFOLD MANG. 90CM - R41080150.033	    160,00	150,00
+
+*/
 
 
 
@@ -52,27 +81,28 @@ itemComercial.forEach((item) =>{
         descricao.style.background = 'white'
         mostrarDescricao()
     
-        if(produtosComercial[item.value]['nome'].includes('Suporte')){
+        // if(produtosComercial[item.value]['nome'].includes('Suporte')){
     
-            descricao.innerText = `${produtosComercial[item.value]['nome']}
-            a prazo: ${produtosComercial[item.value]['prazo'].toFixed(2)}
-            a vista: ${produtosComercial[item.value]['vista'].toFixed(2)}
+        //     descricao.innerText = `${produtosComercial[item.value]['nome']}
+        //     a prazo: ${produtosComercial[item.value]['prazo'].toFixed(2)}
+        //     a vista: ${produtosComercial[item.value]['vista'].toFixed(2)}
     
-            na caixa fechada a vista:${produtosComercial[item.value]['extra1'].toFixed(2)} cada
-            na caixa fechada a prazo:${produtosComercial[item.value]['extra2'].toFixed(2)} cada
+        //     na caixa fechada a vista:${produtosComercial[item.value]['extra1'].toFixed(2)} cada
+        //     na caixa fechada a prazo:${produtosComercial[item.value]['extra2'].toFixed(2)} cada
             
-            Promoção ${tituloPromocao}!!
-            validade até ${datafinal}      
-            `
-        }else{
+        //     Promoção ${tituloPromocao}!!
+        //     ${datafinal}      
+        //     `
+        // }
+        // else{
             descricao.innerText = `${produtosComercial[item.value]['nome']}
             a prazo: ${produtosComercial[item.value]['prazo'].toFixed(2)}
             a vista: ${produtosComercial[item.value]['vista'].toFixed(2)}
     
             Promoção ${tituloPromocao}!!
-            prorrogado até ${datafinal}
+            ${datafinal}
             `
-        }
+        // }
 
 
     })
