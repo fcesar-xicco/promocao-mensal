@@ -18,7 +18,7 @@ let produtosLinhaB = [
     {nome:'Mangueira Saida Curva/Reta grossa.',cod:"11912 /12060",vista: 7.00, prazo:7.50, indice:10 },//10
     {nome:'Mangueira Entrada 1,40m.',cod:10483,vista:9.50 , prazo:10.00, indice:11 }, //11  
     {nome:'Sensor temp. 2,7K W10531315 Orig.',cod: 8601,vista:11.90, prazo:13.50, indice:12},//12
-    {nome:'Aruador de freio 127V 64500661 Orig.',cod: 2332,vista:52.90, prazo:55.00, indice:13},//12
+    {nome:'Atuador de freio 127V 64500661 Orig.',cod: 2332,vista:52.90, prazo:55.00, indice:13},//12
     {nome:'Retentor Baixo W10751509 Orig.',cod:833,vista:12.90, prazo:13.90, indice:14},//14 833
 
 ] 
