@@ -5,7 +5,7 @@ let fluidos = [
     {nome:"Botija de gás R134 Uni ",tipo:"R134",cod:13083 , vista:890.00, prazo:949.00, indice:0 }, // 13083
     {nome:"Gás R134 1kg Freon ",tipo:"R134",cod:12006 , vista:109.00, prazo:125.00, indice:1}, // 12006
     {nome:"Gás R134 Lata 750g ",tipo:"R134",cod:13204 , vista:60.00, prazo:65.00, indice:2}, //13204
-    {nome:"Gás R290 Lata 380g ",cod:13204 , vista:38.00, prazo:40.90, indice:3}, //13204
+    {nome:"Botija de gás R134 RLX ",tipo:"R134",cod:12494 , vista:950.00, prazo:999.00, indice:3 }, //12494
     {nome:"Gás R32 3KG ZAK",cod:13299 ,vista:239.90, prazo:250.00, indice:4 }, // 13299
 
     {nome:"Botija de gás R22 13,6kg Eos ",tipo:"R22",cod:1375 ,vista:890.00, prazo:925.00, indice:5}, // 1375
