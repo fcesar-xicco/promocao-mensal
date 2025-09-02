@@ -14,7 +14,7 @@ let produtosCompressores = [
     {nome:'Embraco 1/3 R134 EMR100HLC ',cod:12547,voltagem:220, vista:490.00 , prazo:519.00, indice:7  },//7 12547
     {nome:'Embraco 1/3+ R134 FFI12HBX ',cod:264,voltagem:127, vista:590.00 , prazo:630.90, indice:8  },//8 264
     {nome:'Embraco 1/3+ R134 FFI12HBX ',cod:262,voltagem:220, vista:590.00 , prazo:630.90, indice:9  },//9 262
-    {nome:'KIT Instalação Embraco 1/4',cod:"11271/11272 - 7229 - 7169 - 692",voltagem:"110v/220v", vista:349.90 , prazo:369.90, indice:10, promo:"yellow"  }//10 262
+    //{nome:'KIT Instalação Embraco 1/4',cod:"11271/11272 - 7229 - 7169 - 692",voltagem:"110v/220v", vista:315.00 , prazo:330.00, indice:10, promo:"yellow"  }//10 262
     
 ]
 

@@ -11,14 +11,14 @@ let produtosLinhaB = [
 
     {nome:'Rolamento 6006 2RS Orig c/Caixa ',cod:1511,vista: 12.90, prazo:14.90, indice:5},//5 1511
     {nome:'Rolamento 6006 2R Orig s/caixa ',cod:13278,vista:10.90, prazo:11.90, indice:6},//6 13278
-    {nome:'Cambio Eixo LONGO W11300816 Orig.',cod:5571,vista: 153.00, prazo:161.00, indice:7, promo: "pais" },//7
-    {nome:'Cambio Eixo CURTO W11300675 Orig.',cod:4711,vista: 159.90, prazo:166.90, indice:8, promo: "pais" },//8
+    {nome:'Cambio Eixo LONGO W11300816 Orig.',cod:5571,vista: 159.90, prazo:166.90, indice:7, promo: "pais" },//7
+    {nome:'Cambio Eixo CURTO W11300675 Orig.',cod:4711,vista: 153.00, prazo:161.00, indice:8, promo: "pais" },//8
     {nome:'Cambio Eixo MINI W11299803 Orig.',cod:5570,vista: 129.90, prazo:135.00, indice:9, promo: "pais"},//8
 
     {nome:'Mangueira Saida Curva/Reta grossa.',cod:"11912 /12060",vista: 7.00, prazo:7.50, indice:10 },//10
     {nome:'Mangueira Entrada 1,40m.',cod:10483,vista:9.50 , prazo:10.00, indice:11 }, //11  
-    {nome:'Sensor temp. 2,7K W10531315 Orig.',cod: 8601 ,vista:11.90, prazo:13.50, indice:12},//12
-    {nome:'Aruador de freio 127V 64500661 Orig.',cod: 2332,vista:11.90, prazo:13.50, indice:13},//12
+    {nome:'Sensor temp. 2,7K W10531315 Orig.',cod: 8601,vista:11.90, prazo:13.50, indice:12},//12
+    {nome:'Atuador de freio 127V 64500661 Orig.',cod: 2332,vista:52.90, prazo:55.00, indice:13},//12
     {nome:'Retentor Baixo W10751509 Orig.',cod:833,vista:12.90, prazo:13.90, indice:14},//14 833
 
 ] 
