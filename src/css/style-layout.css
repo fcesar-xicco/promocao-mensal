@@ -1,7 +1,9 @@
 
 body {
   
-    background-image: linear-gradient( to right, #0d6f99,#7abddb, #65b4d6, #0e719b );
+   /* background-image: linear-gradient( to right, #0d6f99,#7abddb, #65b4d6, #0e719b );*/
+    /* background-image: linear-gradient( to right,#c2cc02, #02b008, #bad202, #1ab502 );*/
+    background-image: linear-gradient( to right, #016590,#20bde4, #20bde4, #027db2 );
     /*background-image: url("paisfinal.jpg");/* Insere a imagem */
     /*background-image: url("paisfinal.jpg");/* Insere a imagem */
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o elemento */
