@@ -2,26 +2,21 @@
 //--------------------------------------------------Comercial
 
 let produtosComercial = [
-    {nome:'Suporte Split 7-12 400MM ',tipo: "Suporte",cod:2265 ,vista:21.50, prazo:23.90, indice:0, },//0  2265
-    {nome:'Suporte barril 7-12 450MM ',tipo: "Suporte",cod:12211 ,vista:24.50, prazo:27.90, indice:1,},//1  12211
-    {nome:'Suporte Split 18-24 500MM ',tipo: "Suporte",cod:7288 ,vista:32.90, prazo:36.90, indice:2, },//2  7288
+    {nome:'Suporte Split 7-12 400MM ',tipo: "Suporte",cod:2265 , prazo:23.90,vista:21.50, indice:0, },//0  2265
+    {nome:'Suporte barril 7-12 450MM ',tipo: "Suporte",cod:12211 , prazo:27.90,vista:24.50, indice:1,},//1  12211
+    {nome:'Suporte Split 18-24 500MM ',tipo: "Suporte",cod:7288 , prazo:36.90,vista:32.90,indice:2, },//2  7288
     // {nome:'Suporte Split 30-36 600MM ',tipo: "Suporte",cod:7289 ,vista:54.90, prazo:59.90, extra1:51.90 ,extra2:53.90, indice:3, promo:"pascoa" },//3
     // {nome:'Suporte Split 48-60 600MM ',tipo: "Suporte",cod:7289 ,vista:54.90, prazo:59.90, extra1:51.90 ,extra2:53.90, indice:3, promo:"pascoa" },//3
-    {nome:'Micro motor Elgin 1/40 110/220V ',tipo: "Comercial",cod:6153 ,vista:49.90 , prazo:52.90, indice:3,},//3  6153
-    {nome:'Micro motor Elgin 1/25 110/220V ',tipo: "Comercial",cod:2418 ,vista:58.90 , prazo:62.90, indice:4,},//4  2418
+    {nome:'Micro motor Elgin 1/40 110/220V ',tipo: "Comercial",cod:6153 , prazo:52.90,vista:49.90 , indice:3,},//3  6153
+    {nome:'Micro motor Elgin 1/25 110/220V ',tipo: "Comercial",cod:2418 , prazo:62.90,vista:58.90 , indice:4,},//4  2418
 
-    {nome:'Controlador FULL GAUGE MT512E',tipo: "Comercial",cod:3966 ,vista:129.90 , prazo:135.00, indice:5,},//5  3966
-    {nome:'Controlador FULL GAUGE TC900E',tipo: "Comercial",cod:4874 ,vista:175.90 , prazo:185.00, indice:6,},//6 4874
-    {nome:'Bico macarico portatil suryha',tipo: "Comercial",cod:1428 ,vista:180.00 , prazo:195.00, indice:7},//7  1428
-    {nome:'Gas Macarico Lata Map ZAK 400g',tipo: "Comercial",cod:13028 ,vista:25.00 , prazo:29.90, indice:8},//8 13028
-    {nome:'Oleo Bomba de vacuo 1lt Pecan',tipo: "Comercial",cod:13237 ,vista:42.90 , prazo:45.90, indice:9,},//9  4874
+    {nome:'Controlador FULL GAUGE MT512E',tipo: "Comercial",cod:3966 ,prazo:135.00, vista:129.90 ,  indice:5,},//5  3966
+    {nome:'Controlador FULL GAUGE TC900E',tipo: "Comercial",cod:4874 , prazo:185.00, vista:175.90 , indice:6,},//6 4874
+    {nome:'Gas Macarico Lata Map ZAK 400g',tipo: "Comercial",cod:13028 , prazo:29.90, vista:25.00 , indice:8},//8 13028
     
-
-    {nome:'Placa Univ. Ar Cond. SURYHA 80150.064 ',tipo: "Comercial",cod:392 ,vista:118.00 , prazo:125.00, indice:10,},//10 3966
-    {nome:'Fluído  AIR REPAIR 500ML PESCAN',tipo: "Comercial",cod:13233 ,vista:29.90 , prazo:34.90, indice:11},//11 13028
-    {nome:'Espuma Limpadora Air repair Pescan',tipo: "Comercial",cod:13238 ,vista:19.90 , prazo:21.90, indice:12},//12  1428
-    {nome:'Manifold Digital 2 Vias MS/100 - Bluetooth',tipo: "Comercial",cod:13163 ,vista:690.00 , prazo:730.00, indice:13},//14 13028
-    {nome:'Conj. Manilfold R410/R32 Mang 90cm',tipo: "Comercial",cod:8378 ,vista:150.00 , prazo:160.00, indice:14}//15 13028
+    {nome:'Fluído  AIR REPAIR 500ML PESCAN',tipo: "Comercial",cod:13233 , prazo:34.90, vista:29.90 , indice:11},//11 13028
+    {nome:'Espuma Limpadora Air repair Pescan',tipo: "Comercial",cod:13238 , prazo:21.90, vista:19.90 , indice:12},//12  1428
+    {nome:'Conj. Manilfold R410/R32 Mang 90cm',tipo: "Comercial",cod:8378 , prazo:160.00, vista:150.00 , indice:14}//15 13028
     
 
 ]
@@ -99,9 +94,11 @@ itemComercial.forEach((item) =>{
             a prazo: ${produtosComercial[item.value]['prazo'].toFixed(2)}
             a vista: ${produtosComercial[item.value]['vista'].toFixed(2)}
     
-            Promoção ${tituloPromocao}!!
-            ${datafinal}
+           ${datafinal}
             `
+
+            // Promoção ${tituloPromocao}!!
+            
         // }
 
 

@@ -1,20 +1,24 @@
 
 //-----------------------------------------------MOTORES
 let produtosCompressores = [
+    /*
     {nome:'Electrolux 1/4 R134 ECLA002 ',cod:11551,voltagem:110, vista:329.00 , prazo:339.90, indice:0},//0 11551
     {nome:'Electrolux 1/4 R134 ECLA003 ',cod:12054,voltagem:220, vista:329.00, prazo:339.90, indice:1},//1 12054
+    */
+    {nome:'Embraco 1/4 R134 EMR80HLR ',cod:11271, voltagem:110, prazo:339.90 , vista:320.00 , indice:0 },//2 11271
+    {nome:'Embraco 1/4 R134 EMR80HLR ',cod:11272, voltagem:220, prazo:339.90 , vista:320.00 , indice:1  },//3 11272
 
-    {nome:'Embraco 1/4 R134 EMR80HLR ',cod:11271,voltagem:110, vista:299.90 , prazo:329.90, indice:2  },//2 11271
-    {nome:'Embraco 1/4 R134 EMR80HLR ',cod:11272,voltagem:220, vista:299.90 , prazo:329.90, indice:3  },//3 11272
+    {nome:'Embraco 1/5 R134 EMR70HLR ',cod:12549, voltagem:110, prazo:355.90 , vista:330.00 , indice:2  },//4 12549
+    {nome:'Embraco 1/5 R134 EMR70HLR ',cod:12608, voltagem:220, prazo:375.90 , vista:345.00 , indice:3  },//5 12608
 
-    {nome:'Embraco 1/5 R134 EMR70HLR ',cod:12549,voltagem:110, vista:330.90 , prazo:345.00, indice:4  },//4 12549
-    {nome:'Embraco 1/5 R134 EMR70HLR ',cod:12608,voltagem:220, vista:330.90 , prazo:365.90, indice:5  },//5 12608
+    /* 
+    {nome:'Embraco 1/3 R134 EMR100HLC ',cod:12552,voltagem:127, prazo:339.90 , vista:320.00 , indice:4  }, //6 12552
+    */ 
+    {nome:'Embraco 1/3 R134 EMR100HLC ',cod:12547,voltagem:220, prazo:525.90 , vista:490.00 , indice:4  },//7 12547
 
-    {nome:'Embraco 1/3 R134 EMR100HLC ',cod:12552,voltagem:127, vista:490.00 , prazo:519.00, indice:6  },//6 12552
-    {nome:'Embraco 1/3 R134 EMR100HLC ',cod:12547,voltagem:220, vista:490.00 , prazo:519.00, indice:7  },//7 12547
-    {nome:'Embraco 1/3+ R134 FFI12HBX ',cod:264,voltagem:127, vista:590.00 , prazo:630.90, indice:8  },//8 264
-    {nome:'Embraco 1/3+ R134 FFI12HBX ',cod:262,voltagem:220, vista:590.00 , prazo:630.90, indice:9  },//9 262
-    //{nome:'KIT Instalação Embraco 1/4',cod:"11271/11272 - 7229 - 7169 - 692",voltagem:"110v/220v", vista:315.00 , prazo:330.00, indice:10, promo:"yellow"  }//10 262
+    {nome:'Embraco 1/3+ R134 FFI12HBX ',cod:264,  voltagem:127, prazo:630.00 , vista:590.00 , indice:5  },//8 264
+    {nome:'Embraco 1/3+ R134 FFI12HBX ',cod:262,  voltagem:220, prazo:630.00 , vista:590.00 , indice:6  },//9 262
+    //{nome:'KIT Instalação Embraco 1/4',cod:"11271/11272 - 7229 - 7169 - 692",voltagem:"110v/220v", prazo:355.00, vista:330.00 , indice:7, promo:"yellow"  }//10 262
     
 ]
 
@@ -102,20 +106,17 @@ function escolhidoCompressor(mot){
         Compressor 1/4 Embraco EMR80 R134
         1 Filtro, 1 solda e 1 Schiraid
         a prazo: ${produtosCompressores[mot.value]['prazo'].toFixed(2)}
-        a vista: ${produtosCompressores[mot.value]['vista'].toFixed(2)}
-        `
+        a vista: ${produtosCompressores[mot.value]['vista'].toFixed(2)}        `
       }
       else{
       if(produtosCompressores[mot.value]['voltagem'] == 220){
         descricao.innerText = `${produtosCompressores[mot.value]['nome']} 220v
         a prazo: ${produtosCompressores[mot.value]['prazo'].toFixed(2)}
-        a vista: ${produtosCompressores[mot.value]['vista'].toFixed(2)}
-        `
+        a vista: ${produtosCompressores[mot.value]['vista'].toFixed(2)}        `
       }else{
         descricao.innerText = `${produtosCompressores[mot.value]['nome']} 127v
         a prazo: ${produtosCompressores[mot.value]['prazo'].toFixed(2)}
-        a vista: ${produtosCompressores[mot.value]['vista'].toFixed(2)}
-        `
+        a vista: ${produtosCompressores[mot.value]['vista'].toFixed(2)}        `
       }
       }
 
@@ -125,20 +126,19 @@ function escolhidoCompressor(mot){
         // if(mot.nome == 0 || mot.value == 1 ||mot.value == 4 || mot.value == 5){
 
         if(produtosCompressores[mot.value]['nome'].includes('Electrolux') || produtosCompressores[mot.value]['nome'].includes('Elgin')){
-          descricao.innerText += `1 ano de garantia!!
-          `
+          descricao.innerText += `1 ano de garantia!! `
         }
 
 
         if(produtosCompressores[mot.value]['indice'] == 10){
-          descricao.innerText += `
-          Promoção valida até ${datafinal}
+          descricao.innerText += `Promoção valida até ${datafinal}
         ` 
         }else{
           descricao.innerText += `
-        Promoção ${tituloPromocao}!!
+        
         ${datafinal}
         ` 
+        //Promoção ${tituloPromocao}!!
         }
         
 

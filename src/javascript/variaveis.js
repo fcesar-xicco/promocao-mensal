@@ -7,7 +7,7 @@ let gas = document.querySelectorAll(".gas")
 let comercial = document.querySelectorAll(".comercial")
 let linhaB = document.querySelectorAll(".linhab")
 let descricao = document.querySelector('#descricao')
-let datafinal = 'válido até 31/08/2025'
+let datafinal = 'Orçamento válido por 3 dias'
 let tituloPromocao = 'Ofertas Mês Dos Pais!'
 let abaB = document.querySelector('div.aba-b')
 
@@ -26,7 +26,7 @@ valorConsumidor.addEventListener("input",function(valorConsumidor){
 function valores(valor){
   let custo = Number(valorConsumidor.value)/2
   let valorPrazo = custo+((custo/100)*43)
-  let valorVista = custo+((custo/100)*38)
+  let valorVista = custo+((custo/100)*37)
 
   descontoPrazo.innerHTML = valorPrazo.toFixed(2)
   descontoVista.innerHTML = valorVista.toFixed(2)

@@ -2,24 +2,24 @@
 //--------------------------------------------------LINHA BRANCA
 
 let produtosLinhaB = [
-    {nome:'Bomba Univ. 127/220v ASKOL',cod:"12168/12169" ,vista:21.90 , prazo:23.90, extra1:18.90 ,extra2:21.90, indice:0},//0 extra1:15.95 ,extra2:16.95
-    {nome:'Bomba Univ. 127/220v EMICOL',cod:" 10245 / 10246" ,vista:18.90 , prazo:19.90,extra1:15.95 ,extra2:16.95,  indice:1},//1 10245 ,
-    {nome:'Bomba Univ. 127/220v Emicol Lava/seca ',cod:" 12951 / 12952" ,vista:22.90 , prazo:24.90,  indice:2},//2 10245 extra1:21.90 ,extra2:23.90,
-    {nome:'Agitador 8 Blades W10882241 Orig ',cod:1599,vista: 71.90, prazo:78.90, indice:3},//3 1599
-    {nome:'Agitador 8 Blades Burdog paralelo',cod:8529,vista: 29.90, prazo:35.00, indice:4},//4 1599
+    {nome:'Bomba Univ. 127/220v ASKOL',cod:"12168/12169" , prazo:23.90, vista:21.90 , extra1:18.90 ,extra2:21.90, indice:0},//0 extra1:15.95 ,extra2:16.95
+    {nome:'Bomba Univ. 127/220v EMICOL',cod:" 10245 / 10246" , prazo:19.90, vista:18.90 ,extra1:15.95 ,extra2:16.95,  indice:1},//1 10245 ,
+    {nome:'Bomba Univ. 127/220v Emicol Lava/seca ',cod:" 12951 / 12952" , prazo:24.90, vista:22.90 ,  indice:2},//2 10245 extra1:21.90 ,extra2:23.90,
+    {nome:'Agitador 8 Blades W10882241 Orig ',cod:1599, prazo:78.90, vista: 71.90, indice:3},//3 1599
+    {nome:'Agitador 8 Blades Burdog paralelo',cod:8529, prazo:35.00,vista: 29.90, indice:4},//4 1599
    
 
-    {nome:'Rolamento 6006 2RS Orig c/Caixa ',cod:1511,vista: 12.90, prazo:14.90, indice:5},//5 1511
-    {nome:'Rolamento 6006 2R Orig s/caixa ',cod:13278,vista:10.90, prazo:11.90, indice:6},//6 13278
-    {nome:'Cambio Eixo LONGO W11300816 Orig.',cod:5571,vista: 159.90, prazo:166.90, indice:7, promo: "pais" },//7
-    {nome:'Cambio Eixo CURTO W11300675 Orig.',cod:4711,vista: 153.00, prazo:161.00, indice:8, promo: "pais" },//8
-    {nome:'Cambio Eixo MINI W11299803 Orig.',cod:5570,vista: 129.90, prazo:135.00, indice:9, promo: "pais"},//8
+    {nome:'Rolamento 6006 2RS Orig c/Caixa ',cod:1511, prazo:14.90,vista: 12.90, indice:5},//5 1511
+    {nome:'Rolamento 6006 2R Orig s/caixa ',cod:13278, prazo:11.90, vista:10.50, indice:6},//6 13278
+    {nome:'Cambio Eixo LONGO W11300816 Orig.',cod:5571, prazo:172.90, vista: 165.90, indice:7, promo: "pais" },//7
+    {nome:'Cambio Eixo CURTO W11300675 Orig.',cod:4711, prazo:166.00, vista: 155.00, indice:8, promo: "pais" },//8
+    {nome:'Cambio Eixo MINI W11299803 Orig.',cod:5570, prazo:141.00, vista: 135.00, indice:9, promo: "pais"},//8
 
-    {nome:'Mangueira Saida Curva/Reta grossa.',cod:"11912 /12060",vista: 7.00, prazo:7.50, indice:10 },//10
-    {nome:'Mangueira Entrada 1,40m.',cod:10483,vista:9.50 , prazo:10.00, indice:11 }, //11  
-    {nome:'Sensor temp. 2,7K W10531315 Orig.',cod: 8601,vista:11.90, prazo:13.50, indice:12},//12
-    {nome:'Atuador de freio 127V 64500661 Orig.',cod: 2332,vista:52.90, prazo:55.00, indice:13},//12
-    {nome:'Retentor Baixo W10751509 Orig.',cod:833,vista:12.90, prazo:13.90, indice:14},//14 833
+    {nome:'Mangueira Saida Curva/Reta grossa.',cod:"11912 /12060", prazo:7.50, vista: 7.00, indice:10 },//10
+    {nome:'Mangueira Entrada 1,40m.',cod:10483, prazo:10.00,vista:9.50 , indice:11 }, //11  
+    {nome:'Sensor temp. 2,7K W10531315 Orig.',cod: 8601, prazo:13.50, vista:11.90, indice:12},//12
+    {nome:'Atuador de freio 127V 64500661 Orig.',cod: 2332, prazo:55.00, vista:52.90, indice:13},//12
+    {nome:'Retentor Baixo W10751509 Orig.',cod:833, prazo:13.90, vista:12.90, indice:14},//14
 
 ] 
 
@@ -80,19 +80,18 @@ function escolhidolinhaB(item){
       
         descricao.innerText = `${produtosLinhaB[item.value]['nome']}
         a prazo: ${produtosLinhaB[item.value]['prazo'].toFixed(2)}
-        a vista: ${produtosLinhaB[item.value]['vista'].toFixed(2)}
-        `
+        a vista: ${produtosLinhaB[item.value]['vista'].toFixed(2)} `
         
         if (item.value== 0 || item.value == 1){
             descricao.innerText += `
             Acima de 5 bombas a vista: ${produtosLinhaB[item.value]['extra1'].toFixed(2)} cada
-            Acima de 5 bombas a prazo: ${produtosLinhaB[item.value]['extra2'].toFixed(2)} cada
-                                    `}
+            Acima de 5 bombas a prazo: ${produtosLinhaB[item.value]['extra2'].toFixed(2)} cada`}
                                     
         descricao.innerText += `
-        Promoção ${tituloPromocao}!!
+        
         ${datafinal}
         `
+        //Promoção ${tituloPromocao}!!
 
 
 
